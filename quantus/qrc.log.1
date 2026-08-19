@@ -1,0 +1,1305 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+21.2.2-s369 Tue May 7 14:47:09 PDT 2024
+--------------------------------------------------------------------------------------------------------------
+                                 Copyright 2024 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXLOG-103) : The Command File Options for the current Quantus run are as follows:
+
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -enable_eco_mode true \
+	 -promote_pin_pad "LOGICAL" \
+	 -technology_layer_map \
+		"poly  poly  " \
+		"mcon  mcon  " \
+		"met1  metal1  " \
+		"via  via1  " \
+		"met2  metal2  " \
+		"via2  via2  " \
+		"met3  metal3  " \
+		"via3  via3  " \
+		"met4  metal4  " \
+		"via4  via4  " \
+		"met5  metal5  "
+filter_coupling_cap \
+	 -cap_filtering_mode "absolute_and_relative" \
+	 -coupling_cap_threshold_absolute 3.0 \
+	 -coupling_cap_threshold_relative 0.03 \
+	 -total_cap_threshold 5.0
+input_db -type def \
+	 -design_file \
+		"SQRC_RUN/qrc.def.gz" \
+	 -lef_file_list_file "SQRC_RUN/qrc.leflist"
+log_file \
+	 -dump_options true \
+	 -file_name "qrc_195529_20260812_11:52:34_922.log"
+output_db -type spef \
+	 -short_incomplete_net_pins true \
+	 -subtype "STANDARD" \
+	 -user_defined_file_name \
+		"picosoc.rctypical.spef"
+output_setup \
+	 -compressed true \
+	 -directory_name "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/SQRC_RUN" \
+	 -temporary_directory_name "SQRC_RUN"
+process_technology \
+	 -technology_corner \
+		"rctypical" \
+	 -technology_library_file "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/SQRC_RUN/_qrc_techlib.defs" \
+	 -technology_name "_qrc_tech_" \
+	 -temperature \
+		"25"
+
+
+
+
+INFO (EXTGRMP-102) : Starting at 2026-Aug-12 12:04:21 (2026-Aug-12 06:04:21 GMT) on host
+uvti_training with pid 180573.
+Running binary as: 
+ /tools/cadence/DDI221/INNOVUS221/tools.lnx86/extraction/bin/64bit/qrc -cmd
+qrc.cmd SQRC_RUN/qrc.def.gz  
+
+WARNING (EXTGRMP-414) : No GDSII/OASIS file is specified. Setting graybox type as LEF_OBSTRUCTION.
+
+INFO (EXTGRMP-142) : Command line arguments:
+"-cmd"
+"qrc.cmd"
+"SQRC_RUN/qrc.def.gz"
+
+INFO (EXTGRMP-143) : Option extraction_setup -copy_port_to_obs = "true"
+
+INFO (EXTGRMP-143) : Option log_file = "qrc_195529_20260812_11:52:34_922.log"
+
+INFO (EXTGRMP-143) : Option log_file -message_config_file = ""
+
+INFO (EXTGRMP-143) : Option log_file -max_error_messages = "100"
+
+INFO (EXTGRMP-143) : Option log_file -max_warning_messages = "10"
+
+INFO (EXTGRMP-143) : Option log_file -max_info_messages = "1000"
+
+INFO (EXTGRMP-143) : Option process_technology -technology_name = ""
+
+INFO (EXTGRMP-143) : Option EM_techname = ""
+
+INFO (EXTGRMP-143) : Option process_technology -EM_WEE_clamping_factor = "0.7"
+
+INFO (EXTGRMP-143) : Option input_db -libgen_library_name = ""
+
+INFO (EXTGRMP-143) : Option oa_default_rule_name = ""
+
+INFO (EXTGRMP-143) : Option graybox -type = "obs"
+
+INFO (EXTGRMP-143) : Option graybox -use_macro_density = "false"
+
+INFO (EXTGRMP-143) : Option comp_prealloc = "0"
+
+INFO (EXTGRMP-143) : Option net_prealloc = "0"
+
+INFO (EXTGRMP-143) : Option output_setup -directory_name =
+"/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/SQRC_RUN"
+
+INFO (EXTGRMP-143) : Option output_db -units = "micron"
+
+INFO (EXTGRMP-143) : Option user_comment = ""
+
+INFO (EXTGRMP-143) : Option output_cache_directory_name = "SQRC_RUN/.qrctemp"
+
+INFO (EXTGRMP-143) : Option keep_temporary_files = "true"
+
+INFO (EXTGRMP-143) : Option output_density_tiles = "false"
+
+INFO (EXTGRMP-143) : Option output_setup -file_name = ""
+
+INFO (EXTGRMP-143) : Option output_db -type spef -predefined_spef_cells_file = ""
+
+INFO (EXTGRMP-143) : Option parasitic_reduction -enable_reduction = "false"
+
+INFO (EXTGRMP-143) : Option debug_log = "false"
+
+INFO (EXTGRMP-143) : Option output_db -type spef -subtype = "generic"
+
+INFO (EXTGRMP-143) : Option output_db -type dspf -subtype = "none"
+
+INFO (EXTGRMP-143) : Option output_sstorm_db_name = ""
+
+INFO (EXTGRMP-143) : Option netlist_output = "none"
+
+INFO (EXTGRMP-143) : Option output_db -type coupling_cap_reports = "false"
+
+INFO (EXTGRMP-143) : Option output_db -type rcdb = "false"
+
+INFO (EXTGRMP-143) : Option output_db -hierarchy_delimiter = "/"
+
+INFO (EXTGRMP-143) : Option output_db -busbit_delimiter = "[]"
+
+INFO (EXTGRMP-143) : Option output_db -pin_delimiter = ":"
+
+INFO (EXTGRMP-143) : Option output_db -output_incomplete_nets_type = "no_pin one_pin
+disconnected_pin multiple_partitions floating_resistors"
+
+INFO (EXTGRMP-143) : Option truncate_regular_wires = "false"
+
+INFO (EXTGRMP-143) : Option extraction_setup -layout_scale = "1.0"
+
+INFO (EXTGRMP-143) : Option output_setup -file_max_size = "9223372036854775807"
+
+INFO (EXTGRMP-143) : Option log_file -dump_options = "true"
+
+INFO (EXTGRMP-143) : Option short_incomplete_net_pins = "true"
+
+INFO (EXTGRMP-143) : Option promote_incomplete_net_pins = "true"
+
+INFO (EXTGRMP-143) : Option output_db -output_incomplete_nets = "true"
+
+INFO (EXTGRMP-143) : Option output_db -output_unrouted_nets = "false"
+
+INFO (EXTGRMP-143) : Option output_db -escape_special_characters = "true"
+
+INFO (EXTGRMP-143) : Option lumped_cc_threshold = "0.0"
+
+INFO (EXTGRMP-143) : Option parasitic_reduction -max_frequency = "1.0e+08"
+
+INFO (EXTGRMP-143) : Option output_setup -compressed = "true"
+
+INFO (EXTGRMP-143) : Option max_resistor_length = "100.0"
+
+INFO (EXTGRMP-143) : Option promote_feedthru_ports = "none"
+
+INFO (EXTGRMP-143) : Option promote_instance_ports = "none"
+
+INFO (EXTGRMP-143) : Option output_promoted_feedthrus = "false"
+
+INFO (EXTGRMP-143) : Option output_unconnected_pins = "false"
+
+INFO (EXTGRMP-143) : Option remove_floating_metals = "false"
+
+INFO (EXTGRMP-143) : Option promote_pin_pad = "logical"
+
+INFO (EXTGRMP-143) : Option eco_compatible_mode = "false"
+
+INFO (EXTGRMP-143) : Option output setup   -max_message_in_shorts_file = "100"
+
+INFO (EXTGRMP-143) : Option cap_mode_2915 = "true"
+
+INFO (EXTGRMP-143) : Option quickcap_file = "false"
+
+INFO (EXTGRMP-143) : Option ict_file = "process.ict"
+
+INFO (EXTGRMP-143) : Option quickcap_netfile = "qapi.net"
+
+INFO (EXTGRMP-143) : Option lefcap_output = "false"
+
+INFO (EXTGRMP-143) : Option lefcap_scale = "1.25"
+
+INFO (EXTGRMP-143) : Option lefres_output = "false"
+
+INFO (EXTGRMP-143) : Option kfactor_file = ""
+
+INFO (EXTGRMP-143) : Option total_c_threshold = "5"
+
+INFO (EXTGRMP-143) : Option relative_c_threshold = "0.03"
+
+INFO (EXTGRMP-143) : Option output_cap_filtering_mode = "relative_and_coupling"
+
+INFO (EXTGRMP-143) : Option cap_mode = "default"
+
+INFO (EXTGRMP-143) : Option parallel_options = ""
+
+INFO (EXTGRMP-143) : Option load_optimized_views = "true"
+
+INFO (EXTGRMP-143) : Option enable_metal_fill_effects = "true"
+
+INFO (EXTGRMP-143) : Option metal_fill -enable_advanced_virtual_fill = "false"
+
+INFO (EXTGRMP-143) : Option metal_fill -type = "floating"
+
+INFO (EXTGRMP-143) : Option vmf_metal_scheme_file = ""
+
+INFO (EXTGRMP-143) : Option vmf_rule_file = ""
+
+INFO (EXTGRMP-143) : Option extraction_setup -ignore_conn_to_bump = "true"
+
+INFO (EXTGRMP-143) : Option extraction_setup -lic_queue = "0"
+
+INFO (EXTGRMP-143) : Option extraction_setup -cerebrus_license_only = "false"
+
+INFO (EXTGRMP-143) : Option input_db -type metal_fill -gds_file = ""
+
+INFO (EXTGRMP-143) : Option density_check_method = "none"
+
+INFO (EXTGRMP-143) : Option process_technology -technology_corner = "rctypical"
+
+INFO (EXTGRMP-143) : Option process_technology -EM_technology_corner = ""
+
+INFO (EXTGRMP-143) : Option process_technology -temperature = "25"
+
+INFO (EXTGRMP-143) : Option promote_gray_data_pins = "false"
+
+INFO (EXTGRMP-143) : Option extraction_setup -enable_layer_bias = "false"
+
+INFO (EXTGRMP-143) : Option output_db -map_eeq_to_master = "false"
+
+INFO (EXTGRMP-143) : Option output_db -match_res_cap = "false"
+
+INFO (EXTGRMP-143) : Option merge_tile_boundary_data = "true"
+
+INFO (EXTGRMP-143) : Option coupling_c_threshold = "3"
+
+INFO (EXTGRMP-143) : Option use_icecaps_models_only = "false"
+
+INFO (EXTGRMP-143) : Option output_db -type spef -use_name_map = "true"
+
+INFO (EXTGRMP-143) : Option output_db -type spef -name_map_start_index = "0"
+
+INFO (EXTGRMP-143) : Option distributed_processing -timeout = "300"
+
+INFO (EXTGRMP-143) : Option distributed_processing -num_of_trials = "0"
+
+INFO (EXTGRMP-143) : Option output_db -type dspf -add_cap_prefix = "false"
+
+INFO (EXTGRMP-143) : Option output_db -type oa = "false"
+
+INFO (EXTGRMP-143) : Option oa_analysis_point = "default"
+
+INFO (EXTGRMP-143) : Option extraction_setup -enable_sensitivity_extraction = "false"
+
+INFO (EXTGRMP-143) : Option report_details = "false"
+
+INFO (EXTGRMP-143) : Option input_db -type metal_fill -offset_x = "0.0"
+
+INFO (EXTGRMP-143) : Option input_db -type metal_fill -offset_y = "0.0"
+
+INFO (EXTGRMP-143) : Option extraction_setup -ignore_pushdown_blockages = "false"
+
+INFO (EXTGRMP-143) : Option output_setup -compress_temporary_files = "true"
+
+INFO (EXTGRMP-143) : Option strong_gray_debug = "false"
+
+INFO (EXTGRMP-143) : Option output_db -disable_instances = "true"
+
+INFO (EXTGRMP-143) : Option output_db -disable_subnodes = "true"
+
+INFO (EXTGRMP-143) : Option output_db -type coupling_cap_reports -dump_erosion_info = ""
+
+INFO (EXTGRMP-143) : Option output_db -include_parasitic_res_width_drawn = "true"
+
+INFO (EXTGRMP-143) : Option output_db -include_parasitic_res_parameters_unscaled = "false"
+
+INFO (EXTGRMP-143) : Option enable_active_fill_via_processing = "false"
+
+INFO (EXTGRMP-143) : Option output_db -add_explicit_vias = "false"
+
+INFO (EXTGRMP-143) : Option output_db -include_parasitic_cap_layers = "false"
+
+INFO (EXTGRMP-143) : Option capacitance -ground_net = "0"
+
+INFO (EXTGRMP-143) : Option output_db -include_parasitic_res_temp_coeff = "false"
+
+INFO (EXTGRMP-143) : Option output_setup -write_coupled_decoupled_files = "false"
+
+INFO (EXTGRMP-143) : Option capacitance_coupling = "default"
+
+INFO (EXTGRMP-143) : Option extraction_setup -gds_top_cell = ""
+
+INFO (EXTGRMP-143) : Option input_db -directory_name = ""
+
+INFO (EXTGRMP-143) : Option binary_input = "false"
+
+INFO (EXTGRMP-143) : Option binary_output = "false"
+
+INFO (EXTGRMP-143) : Option output_setup -enable_ieee_sensitivity = "false"
+
+INFO (EXTGRMP-143) : Option input_db -bump_map_file = ""
+
+INFO (EXTGRMP-143) : Option extraction_setup -enable_bump_instance = "false"
+
+INFO (EXTGRMP-143) : Option extraction_setup -enable_tsv_instance = "false"
+
+INFO (EXTGRMP-143) : Option extraction_setup -enable_TSV_STA_Cc_model = "false"
+
+INFO (EXTGRMP-143) : Option extraction_setup -stitch_bump_model = "false"
+
+INFO (EXTGRMP-143) : Option extraction_setup -stitch_tsv_model = "none"
+
+INFO (EXTGRMP-143) : Option enable_eco_mode = "true"
+
+INFO (EXTGRMP-143) : Option eco_file = ""
+
+INFO (EXTGRMP-143) : Option override_eco_reference = "true"
+
+INFO (EXTGRMP-143) : Option analysis_mode = "timing"
+
+INFO (EXTGRMP-143) : Option use_lef_for_hierarchical_def = "false"
+
+INFO (EXTGRMP-143) : Option enable_ws_r_scaling = "false"
+
+INFO (EXTGRMP-143) : Option include_gate_forming_layers = "false"
+
+INFO (EXTGRMP-143) : Option log_file -strict_error_reporting = "false"
+
+INFO (EXTGRMP-143) : Option log_file -report_outside_die_area_object = "false"
+
+INFO (EXTGRMP-143) : Option report_outside_diearea_object_error_limit = "1"
+
+INFO (EXTGRMP-143) : Option change_overhang_direction = "false"
+
+INFO (EXTGRMP-143) : Option ubump_subckt_file = ""
+
+INFO (EXTGRMP-143) : Option tsv_subckt_file = ""
+
+INFO (EXTGRMP-143) : Option output_setup -write_drc_violations = "false"
+
+INFO (EXTGRMP-143) : Option log_file -max_drc_messages = "1000"
+
+INFO (EXTGRMP-143) : Option LEF files =
+"/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_phyCells.lef
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_HS.lef
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_LP.lef
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.lef
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_4kbyte_1rw1r_32x1024_8.lef"
+
+INFO (EXTGRMP-143) : Option DEF files = "SQRC_RUN/qrc.def.gz"
+
+INFO (EXTGRMP-143) : Option GDSII files = ""
+
+INFO (EXTGRMP-143) : Option GDSII/RDL files = ""
+
+INFO (EXTGRMP-143) : Option SPICE files = ""
+
+INFO (EXTGRMP-143) : Option DENSITY cells = ""
+
+INFO (EXTGRMP-143) : Option stitch bump cells = ""
+
+INFO (EXTGRMP-143) : Option ignored macros = ""
+
+INFO (EXTGRMP-143) : Option black macros = ""
+
+INFO (EXTGRMP-156) : Layer mappings from the command file.
+poly --> poly
+mcon --> mcon
+met1 --> metal1
+via --> via1
+met2 --> metal2
+via2 --> via2
+met3 --> metal3
+via3 --> via3
+met4 --> metal4
+via4 --> via4
+met5 --> metal5
+
+INFO (EXTGRMP-276) : Gds/Oasis Layer Map settings were not specified.
+
+INFO (EXTGRMP-548) : Gds/Oasis Fill layer Map settings were not specified.
+
+INFO (EXTGRMP-550) : Gds/Oasis Active Fill layer Map settings were not specified.
+
+INFO (EXTGRMP-562) : HPB layer settings were not specified.
+
+INFO (EXTGRMP-828) : Gds/Oasis InfoGds layer Map settings were not specified.
+
+INFO (EXTGRMP-623) : Background density layer mappings were not specified.
+
+INFO (EXTGRMP-144) : There were no layer bias commands for R values.
+
+INFO (EXTGRMP-147) : Layer bias settings for C values were not specified.
+
+INFO (EXTGRMP-149) : Lefcap area scale settings were not specified.
+
+INFO (EXTGRMP-153) : Lefcap edge scale settings were not specified.
+
+INFO (EXTGRMP-151) : Parameter name settings were not specified.
+
+INFO (EXTGRMP-260) : Layer cluster settings were not specified.
+
+INFO (EXTHPY-232) : Preprocessing stage started at Wed Aug 12 12:04:21 2026.
+
+INFO (EXTGRMP-103) : Local job on uvti_training obtained for resource 0 at 2026-Aug-12 12:04:21
+(2026-Aug-12 06:04:21 GMT); 
+
+WARNING (EXTGRMP-103) : Maximum size of the process stack (stacksize) on host uvti_training is 8388608 bytes. Set it to a large value, preferably unlimited, to avoid any unexpected issues.
+
+
+INFO (EXTGRMP-336) : Reading technology data and cell definitions from LEF file:
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_phyCells.lef
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_HS.lef
+
+INFO (EXTGRMP-583) : Incremental extraction base run is being executed, entire design will be extracted.
+
+WARNING (EXTGRMP-605) : Layer "diff" will not be extracted and will be ignored.
+
+WARNING (EXTGRMP-605) : Layer "poly" will not be extracted and will be ignored.
+
+WARNING (EXTGRMP-728) : Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_phyCells.lef" with version 5.8. 
+Check for all macro lefs.
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_LP.lef
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.lef
+
+WARNING (EXTGRMP-728) : Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_HS.lef" with version 5.8. 
+Check for all macro lefs.
+
+WARNING (EXTGRMP-728) : Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_LP.lef" with version 5.8. 
+Check for all macro lefs.
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef
+
+WARNING (EXTGRMP-728) : Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.lef" with version 5.8. 
+Check for all macro lefs.
+
+WARNING (EXTGRMP-728) : Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef" with version 5.4. 
+Check for all macro lefs.
+
+INFO (EXTGRMP-338) : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_4kbyte_1rw1r_32x1024_8.lef
+
+WARNING (EXTGRMP-781) : ORIGIN definition is missing for sky130_sram_2kbyte_1rw1r_32x512_8 macro present in /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef file.
+
+WARNING (EXTGRMP-728) : Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_4kbyte_1rw1r_32x1024_8.lef" with version 5.4. 
+Check for all macro lefs.
+
+WARNING (EXTGRMP-781) : ORIGIN definition is missing for sky130_sram_4kbyte_1rw1r_32x1024_8 macro present in /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_4kbyte_1rw1r_32x1024_8.lef file.
+
+INFO (EXTGRMP-195) : Reading NETS section.
+
+INFO (EXTGRMP-195) : Reading SPECIALNETS section.
+
+INFO (EXTGRMP-205) : Reading DEF file: SQRC_RUN/qrc.def.gz
+
+INFO (EXTGRMP-195) : Reading VIAS section.
+
+INFO (EXTGRMP-195) : Reading NONDEFAULTRULES section.
+
+INFO (EXTGRMP-195) : Reading COMPONENTS section.
+
+INFO (EXTGRMP-197) :    10%
+
+INFO (EXTGRMP-197) :    20%
+
+INFO (EXTGRMP-197) :    30%
+
+INFO (EXTGRMP-197) :    40%
+
+INFO (EXTGRMP-197) :    50%
+
+INFO (EXTGRMP-197) :    60%
+
+INFO (EXTGRMP-197) :    70%
+
+INFO (EXTGRMP-197) :    80%
+
+INFO (EXTGRMP-197) :    90%
+
+INFO (EXTGRMP-195) : Reading PINS section.
+
+INFO (EXTGRMP-195) : Reading BLOCKAGES section.
+
+WARNING (EXTGRMP-184) : Gray-box mode -type lef_obstruction was selected for extraction, but 62 macro definitions did not include any obstruction data in LEF. The first 10 macros are:
+ ANTENNA FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 FILL_DECAP16 FILL_DECAP8
+Check the library inputs and log files from library setup to determine whether there is a problem.
+
+WARNING (EXTGRMP-766) : The macro sky130_sram_2kbyte_1rw1r_32x512_8 has missing SITE definition. Check macro present in /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef file.
+
+WARNING (EXTGRMP-766) : The macro sky130_sram_4kbyte_1rw1r_32x1024_8 has missing SITE definition. Check macro present in /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_4kbyte_1rw1r_32x1024_8.lef file.
+
+INFO (EXTGRMP-248) : METAL FILL data is not available in DEF file.
+
+INFO (EXTGRMP-207) : Reading DEF file completed successfully.
+
+INFO (EXTGRMP-292) : Checking Command/Tech/License Files.
+
+INFO (EXTGRMP-281) : Manufacturing Data Information :- 
+  DEF/GDS/OASIS/LEF file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does NOT contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does NOT contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does NOT contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+    does NOT contain WBE data.
+
+INFO (EXTGRMP-613) : Turbo Reduction is now turned on by default.
+
+INFO (EXTGRMP-294) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : n/a 
+ Erosion Effects  : n/a t=f(density) 
+ T/B Enlargements : n/a 
+ R(w) Effects     : n/a 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects    : n/a 
+Some effects indicate n/a because of non-availability of relevant input data (or) requested to be off.
+
+INFO (EXTGRMP-802) : Summary of license(s) checkout :
+	2 of QTS300, 2 of QTS310
+
+INFO (EXTGRMP-103) : Local job on uvti_training obtained for resource 1 at 2026-Aug-12 12:04:25
+(2026-Aug-12 06:04:25 GMT); 
+
+INFO (EXTGRMP-211) : Reading geometric data from DEF file:
+SQRC_RUN/qrc.def.gz
+
+INFO (EXTSNZ-156) :    1%
+
+INFO (EXTSNZ-156) :    2%
+
+INFO (EXTSNZ-156) :    3%
+
+INFO (EXTSNZ-156) :    4%
+
+INFO (EXTSNZ-156) :    5%
+
+INFO (EXTSNZ-156) :    6%
+
+INFO (EXTSNZ-156) :    7%
+
+INFO (EXTSNZ-156) :    8%
+
+INFO (EXTSNZ-156) :    9%
+
+INFO (EXTSNZ-156) :    10%
+
+INFO (EXTSNZ-156) :    11%
+
+INFO (EXTSNZ-156) :    12%
+
+INFO (EXTSNZ-156) :    13%
+
+INFO (EXTSNZ-156) :    14%
+
+INFO (EXTSNZ-156) :    15%
+
+INFO (EXTSNZ-156) :    16%
+
+INFO (EXTSNZ-156) :    17%
+
+INFO (EXTSNZ-156) :    18%
+
+INFO (EXTSNZ-156) :    19%
+
+INFO (EXTSNZ-156) :    20%
+
+INFO (EXTSNZ-156) :    21%
+
+INFO (EXTSNZ-156) :    22%
+
+INFO (EXTSNZ-156) :    23%
+
+INFO (EXTSNZ-156) :    24%
+
+INFO (EXTSNZ-156) :    25%
+
+INFO (EXTSNZ-156) :    26%
+
+INFO (EXTSNZ-156) :    27%
+
+INFO (EXTSNZ-156) :    28%
+
+INFO (EXTSNZ-156) :    29%
+
+INFO (EXTSNZ-156) :    30%
+
+INFO (EXTSNZ-156) :    31%
+
+INFO (EXTSNZ-156) :    32%
+
+INFO (EXTSNZ-156) :    33%
+
+INFO (EXTSNZ-156) :    34%
+
+INFO (EXTSNZ-156) :    35%
+
+INFO (EXTSNZ-156) :    36%
+
+INFO (EXTSNZ-156) :    37%
+
+INFO (EXTSNZ-156) :    38%
+
+INFO (EXTSNZ-156) :    39%
+
+INFO (EXTSNZ-156) :    40%
+
+INFO (EXTSNZ-156) :    41%
+
+INFO (EXTSNZ-156) :    42%
+
+INFO (EXTSNZ-156) :    43%
+
+INFO (EXTSNZ-156) :    44%
+
+INFO (EXTSNZ-156) :    45%
+
+INFO (EXTSNZ-156) :    46%
+
+INFO (EXTSNZ-156) :    47%
+
+INFO (EXTSNZ-156) :    48%
+
+INFO (EXTSNZ-156) :    49%
+
+INFO (EXTSNZ-156) :    50%
+
+INFO (EXTSNZ-156) :    51%
+
+INFO (EXTSNZ-156) :    52%
+
+INFO (EXTSNZ-156) :    53%
+
+INFO (EXTSNZ-156) :    54%
+
+INFO (EXTSNZ-156) :    55%
+
+INFO (EXTSNZ-156) :    56%
+
+INFO (EXTSNZ-156) :    57%
+
+INFO (EXTSNZ-156) :    58%
+
+INFO (EXTSNZ-156) :    59%
+
+INFO (EXTSNZ-156) :    60%
+
+INFO (EXTSNZ-156) :    61%
+
+INFO (EXTSNZ-156) :    62%
+
+INFO (EXTSNZ-156) :    63%
+
+INFO (EXTSNZ-156) :    64%
+
+INFO (EXTSNZ-156) :    65%
+
+INFO (EXTSNZ-156) :    66%
+
+INFO (EXTSNZ-156) :    67%
+
+INFO (EXTSNZ-156) :    68%
+
+INFO (EXTSNZ-156) :    69%
+
+INFO (EXTSNZ-156) :    70%
+
+INFO (EXTSNZ-156) :    71%
+
+INFO (EXTSNZ-156) :    72%
+
+INFO (EXTSNZ-156) :    73%
+
+INFO (EXTSNZ-156) :    74%
+
+INFO (EXTSNZ-156) :    75%
+
+INFO (EXTSNZ-156) :    76%
+
+INFO (EXTSNZ-156) :    77%
+
+INFO (EXTSNZ-156) :    78%
+
+INFO (EXTSNZ-156) :    79%
+
+INFO (EXTSNZ-156) :    80%
+
+INFO (EXTSNZ-156) :    81%
+
+INFO (EXTSNZ-156) :    82%
+
+INFO (EXTSNZ-156) :    83%
+
+INFO (EXTSNZ-156) :    84%
+
+INFO (EXTSNZ-156) :    85%
+
+INFO (EXTSNZ-156) :    86%
+
+INFO (EXTSNZ-156) :    87%
+
+INFO (EXTSNZ-156) :    88%
+
+INFO (EXTSNZ-156) :    89%
+
+INFO (EXTSNZ-156) :    90%
+
+INFO (EXTSNZ-156) :    91%
+
+INFO (EXTSNZ-156) :    92%
+
+INFO (EXTSNZ-156) :    93%
+
+INFO (EXTSNZ-156) :    94%
+
+INFO (EXTSNZ-156) :    95%
+
+INFO (EXTSNZ-156) :    96%
+
+INFO (EXTSNZ-156) :    97%
+
+INFO (EXTSNZ-156) :    98%
+
+INFO (EXTSNZ-156) :    99%
+
+INFO (EXTGRMP-509) : The extracted temperature is 25, the reference temperature is 25 for the process . However, the techfile does not contain TC1/TC2 data for any conductor and via layers!
+
+INFO (EXTGRMP-213) : Reading geometric data from DEF completed successfully.
+
+INFO (EXTSNZ-156) :    1%
+
+INFO (EXTSNZ-156) :    2%
+
+INFO (EXTSNZ-156) :    3%
+
+INFO (EXTSNZ-156) :    4%
+
+INFO (EXTSNZ-156) :    5%
+
+INFO (EXTSNZ-156) :    6%
+
+INFO (EXTSNZ-156) :    7%
+
+INFO (EXTSNZ-156) :    8%
+
+INFO (EXTSNZ-156) :    9%
+
+INFO (EXTSNZ-156) :    10%
+
+INFO (EXTSNZ-156) :    11%
+
+INFO (EXTSNZ-156) :    12%
+
+INFO (EXTSNZ-156) :    13%
+
+INFO (EXTSNZ-156) :    14%
+
+INFO (EXTSNZ-156) :    15%
+
+INFO (EXTSNZ-156) :    16%
+
+INFO (EXTSNZ-156) :    17%
+
+INFO (EXTSNZ-156) :    18%
+
+INFO (EXTSNZ-156) :    19%
+
+INFO (EXTSNZ-156) :    20%
+
+INFO (EXTSNZ-156) :    21%
+
+INFO (EXTSNZ-156) :    22%
+
+INFO (EXTSNZ-156) :    23%
+
+INFO (EXTSNZ-156) :    24%
+
+INFO (EXTSNZ-156) :    25%
+
+INFO (EXTSNZ-156) :    26%
+
+INFO (EXTSNZ-156) :    27%
+
+INFO (EXTSNZ-156) :    28%
+
+INFO (EXTSNZ-156) :    29%
+
+INFO (EXTSNZ-156) :    30%
+
+INFO (EXTSNZ-156) :    31%
+
+INFO (EXTSNZ-156) :    32%
+
+INFO (EXTSNZ-156) :    33%
+
+INFO (EXTSNZ-156) :    34%
+
+INFO (EXTSNZ-156) :    35%
+
+INFO (EXTSNZ-156) :    36%
+
+INFO (EXTSNZ-156) :    37%
+
+INFO (EXTSNZ-156) :    38%
+
+INFO (EXTSNZ-156) :    39%
+
+INFO (EXTSNZ-156) :    40%
+
+INFO (EXTSNZ-156) :    41%
+
+INFO (EXTSNZ-156) :    42%
+
+INFO (EXTSNZ-156) :    43%
+
+INFO (EXTSNZ-156) :    44%
+
+INFO (EXTSNZ-156) :    45%
+
+INFO (EXTSNZ-156) :    46%
+
+INFO (EXTSNZ-156) :    47%
+
+INFO (EXTSNZ-156) :    48%
+
+INFO (EXTSNZ-156) :    49%
+
+INFO (EXTSNZ-156) :    50%
+
+INFO (EXTSNZ-156) :    51%
+
+INFO (EXTSNZ-156) :    52%
+
+INFO (EXTSNZ-156) :    53%
+
+INFO (EXTSNZ-156) :    54%
+
+INFO (EXTSNZ-156) :    55%
+
+INFO (EXTSNZ-156) :    56%
+
+INFO (EXTSNZ-156) :    57%
+
+INFO (EXTSNZ-156) :    58%
+
+INFO (EXTSNZ-156) :    59%
+
+INFO (EXTSNZ-156) :    60%
+
+INFO (EXTSNZ-156) :    61%
+
+INFO (EXTSNZ-156) :    62%
+
+INFO (EXTSNZ-156) :    63%
+
+INFO (EXTSNZ-156) :    64%
+
+INFO (EXTSNZ-156) :    65%
+
+INFO (EXTSNZ-156) :    66%
+
+INFO (EXTSNZ-156) :    67%
+
+INFO (EXTSNZ-156) :    68%
+
+INFO (EXTSNZ-156) :    69%
+
+INFO (EXTSNZ-156) :    70%
+
+INFO (EXTSNZ-156) :    71%
+
+INFO (EXTSNZ-156) :    72%
+
+INFO (EXTSNZ-156) :    73%
+
+INFO (EXTSNZ-156) :    74%
+
+INFO (EXTSNZ-156) :    75%
+
+INFO (EXTSNZ-156) :    76%
+
+INFO (EXTSNZ-156) :    77%
+
+INFO (EXTSNZ-156) :    78%
+
+INFO (EXTSNZ-156) :    79%
+
+INFO (EXTSNZ-156) :    80%
+
+INFO (EXTSNZ-156) :    81%
+
+INFO (EXTSNZ-156) :    82%
+
+INFO (EXTSNZ-156) :    83%
+
+INFO (EXTSNZ-156) :    84%
+
+INFO (EXTSNZ-156) :    85%
+
+INFO (EXTSNZ-156) :    86%
+
+INFO (EXTSNZ-156) :    87%
+
+INFO (EXTSNZ-156) :    88%
+
+INFO (EXTSNZ-156) :    89%
+
+INFO (EXTSNZ-156) :    90%
+
+INFO (EXTSNZ-156) :    91%
+
+INFO (EXTSNZ-156) :    92%
+
+INFO (EXTSNZ-156) :    93%
+
+INFO (EXTSNZ-156) :    94%
+
+INFO (EXTSNZ-156) :    95%
+
+INFO (EXTSNZ-156) :    96%
+
+INFO (EXTSNZ-156) :    97%
+
+INFO (EXTSNZ-156) :    98%
+
+INFO (EXTSNZ-156) :    99%
+
+INFO (EXTHPY-101) : Initializing gray data from all cell instances for capacitance extraction.
+
+INFO (EXTHPY-102) : Processing of gray data completed successfully.
+
+INFO (EXTHPY-156) : Gray pins that are touching or overlapping extracted nets will be treated as gray data during extraction.
+
+INFO (EXTHPY-233) : Preprocessing stage completed successfully at Wed Aug 12 12:04:31 2026 with
+2 CPU(s).
+
+INFO (EXTHPY-247) : Preprocessing stage:
+ Duration: 00:00:10, Max (Total) memory: 262 MB
+ Max (CPU) memory: 552 MB, Max (CPU) time: 00:00:01
+
+INFO (EXTHPY-173) : Capacitance extraction started at Wed Aug 12 12:04:31 2026.
+
+INFO (EXTHPY-103) : Extracting capacitance values.
+
+INFO (EXTHPY-267) :  
+ DESIGN                       : picosoc
+ DEF/OA DIEAREA BBOX          : 0 0 1598040 1598040
+ DEF/OA UNITS                 : 1000
+ FINAL SCALE FACTOR           : 1
+ 
+ ESTIMATED COMPRESSED DEF SIZE: 3190110
+ TILE SIZE                    : 100x100 squm
+ TILE COUNT                   : 256
+ CLUSTER SIZE                 : 257
+ CAPDB PARTITIONS             : 16
+
+INFO (EXTHPY-104) :    0%
+
+INFO (EXTHPY-104) :    1%
+
+INFO (EXTHPY-104) :    2%
+
+INFO (EXTHPY-104) :    3%
+
+INFO (EXTHPY-104) :    4%
+
+INFO (EXTHPY-104) :    5%
+
+INFO (EXTHPY-104) :    6%
+
+INFO (EXTHPY-104) :    7%
+
+INFO (EXTHPY-104) :    8%
+
+INFO (EXTHPY-104) :    9%
+
+INFO (EXTHPY-104) :    10%
+
+INFO (EXTHPY-104) :    11%
+
+INFO (EXTHPY-104) :    12%
+
+INFO (EXTHPY-104) :    13%
+
+INFO (EXTHPY-104) :    14%
+
+INFO (EXTHPY-104) :    15%
+
+INFO (EXTHPY-104) :    16%
+
+INFO (EXTHPY-104) :    17%
+
+INFO (EXTHPY-104) :    18%
+
+INFO (EXTHPY-104) :    19%
+
+INFO (EXTHPY-104) :    20%
+
+INFO (EXTHPY-104) :    21%
+
+INFO (EXTHPY-104) :    22%
+
+INFO (EXTHPY-104) :    23%
+
+INFO (EXTHPY-104) :    24%
+
+INFO (EXTHPY-104) :    25%
+
+INFO (EXTHPY-104) :    26%
+
+INFO (EXTHPY-104) :    27%
+
+INFO (EXTHPY-104) :    28%
+
+INFO (EXTHPY-104) :    29%
+
+INFO (EXTHPY-104) :    30%
+
+INFO (EXTHPY-104) :    31%
+
+INFO (EXTHPY-104) :    32%
+
+INFO (EXTHPY-104) :    33%
+
+INFO (EXTHPY-104) :    34%
+
+INFO (EXTHPY-104) :    35%
+
+INFO (EXTHPY-104) :    36%
+
+INFO (EXTHPY-104) :    37%
+
+INFO (EXTHPY-104) :    38%
+
+INFO (EXTHPY-104) :    39%
+
+INFO (EXTHPY-104) :    40%
+
+INFO (EXTHPY-104) :    41%
+
+INFO (EXTHPY-104) :    42%
+
+INFO (EXTHPY-104) :    43%
+
+INFO (EXTHPY-104) :    44%
+
+INFO (EXTHPY-104) :    45%
+
+INFO (EXTHPY-104) :    46%
+
+INFO (EXTHPY-104) :    47%
+
+INFO (EXTHPY-104) :    48%
+
+INFO (EXTHPY-104) :    49%
+
+INFO (EXTHPY-104) :    50%
+
+INFO (EXTHPY-104) :    51%
+
+INFO (EXTHPY-104) :    52%
+
+INFO (EXTHPY-104) :    53%
+
+INFO (EXTHPY-104) :    54%
+
+INFO (EXTHPY-104) :    55%
+
+INFO (EXTHPY-104) :    56%
+
+INFO (EXTHPY-104) :    57%
+
+INFO (EXTHPY-104) :    58%
+
+INFO (EXTHPY-104) :    59%
+
+INFO (EXTHPY-104) :    60%
+
+INFO (EXTHPY-104) :    61%
+
+INFO (EXTHPY-104) :    62%
+
+INFO (EXTHPY-104) :    63%
+
+INFO (EXTHPY-104) :    64%
+
+INFO (EXTHPY-104) :    65%
+
+INFO (EXTHPY-104) :    66%
+
+INFO (EXTHPY-104) :    67%
+
+INFO (EXTHPY-104) :    68%
+
+INFO (EXTHPY-104) :    69%
+
+INFO (EXTHPY-104) :    70%
+
+INFO (EXTHPY-104) :    71%
+
+INFO (EXTHPY-104) :    72%
+
+INFO (EXTHPY-104) :    73%
+
+INFO (EXTHPY-104) :    74%
+
+INFO (EXTHPY-104) :    75%
+
+INFO (EXTHPY-104) :    76%
+
+INFO (EXTHPY-104) :    77%
+
+INFO (EXTHPY-104) :    78%
+
+INFO (EXTHPY-104) :    79%
+
+INFO (EXTHPY-104) :    80%
+
+INFO (EXTHPY-104) :    81%
+
+INFO (EXTHPY-104) :    82%
+
+INFO (EXTHPY-104) :    83%
+
+INFO (EXTHPY-104) :    84%
+
+INFO (EXTHPY-104) :    85%
+
+INFO (EXTHPY-104) :    86%
+
+INFO (EXTHPY-104) :    87%
+
+INFO (EXTHPY-104) :    88%
+
+INFO (EXTHPY-104) :    89%
+
+INFO (EXTHPY-104) :    90%
+
+INFO (EXTHPY-104) :    91%
+
+INFO (EXTHPY-104) :    92%
+
+INFO (EXTHPY-104) :    93%
+
+INFO (EXTHPY-104) :    94%
+
+INFO (EXTHPY-104) :    95%
+
+INFO (EXTHPY-104) :    96%
+
+INFO (EXTHPY-104) :    97%
+
+INFO (EXTHPY-104) :    98%
+
+INFO (EXTHPY-104) :    99%
+
+INFO (EXTHPY-104) :    100%
+
+INFO (EXTHPY-174) : Capacitance extraction completed successfully at Wed Aug 12 12:05:01 2026
+with 2 CPU(s).
+
+INFO (EXTHPY-248) : Capacitance extraction:
+ Duration: 00:00:30, Max (Total) memory: 230 MB
+ Max (CPU) memory: 467 MB, Max (CPU) time: 00:00:22
+
+INFO (EXTHPY-175) : Output generation started at Wed Aug 12 12:05:01 2026.
+
+INFO (EXTSNZ-156) :    0%
+
+INFO (EXTSNZ-156) :    10%
+
+INFO (EXTSNZ-156) :    20%
+
+INFO (EXTSNZ-156) :    30%
+
+INFO (EXTSNZ-156) :    40%
+
+INFO (EXTSNZ-156) :    50%
+
+INFO (EXTSNZ-156) :    60%
+
+INFO (EXTSNZ-156) :    70%
+
+INFO (EXTSNZ-156) :    80%
+
+INFO (EXTSNZ-156) :    90%
+
+WARNING (EXTGRMP-574) : There are 2306 unrouted nets. 
+Please check file *.incompletenets in your output directory for details.
+
+INFO (EXTHPY-176) : Output generation completed successfully at Wed Aug 12 12:05:03 2026 with 2
+CPU(s).
+
+INFO (EXTHPY-249) : Output generation:
+ Duration: 00:00:02, Max (Total) memory: 157 MB
+ Max (CPU) memory: 409 MB, Max (CPU) time: 00:00:01
+
+INFO (EXTHPY-143) : ---Summary of Stage Duration
+ Preprocessing stage:
+ Duration: 00:00:10, Max (Total) memory: 262 MB
+ Max (CPU) memory: 552 MB, Max (CPU) time: 00:00:01
+ Capacitance extraction:
+ Duration: 00:00:30, Max (Total) memory: 230 MB
+ Max (CPU) memory: 467 MB, Max (CPU) time: 00:00:22
+ Output generation:
+ Duration: 00:00:02, Max (Total) memory: 157 MB
+ Max (CPU) memory: 409 MB, Max (CPU) time: 00:00:01
+
+Warning message summary: 
+
+Message Code(ID)   Count     Message
+=================|=========|=======================================================================================================================
+EXTGRMP-103       1          Maximum size of the process stack (stacksize) on host uvti_training is 8388608 bytes. Set it to a large value, preferably unlimited, to avoid any unexpected issues.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-184       1          Gray-box mode -type lef_obstruction was selected for extraction, but 62 macro definitions did not include any obstruction data in LEF. The first 10 macros are:
+ ANTENNA FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 FILL_DECAP16 FILL_DECAP8
+Check the library inputs and log files from library setup to determine whether there is a problem.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-414       1          No GDSII/OASIS file is specified. Setting graybox type as LEF_OBSTRUCTION.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-574       1          There are 2306 unrouted nets. 
+Please check file *.incompletenets in your output directory for details.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-605       2          Layer "diff" will not be extracted and will be ignored.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-728       6          Different version number exists for tech lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T.tlef" with version 5.7 and macro lef "/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_scl_9T_phyCells.lef" with version 5.8. 
+Check for all macro lefs.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-766       2          The macro sky130_sram_2kbyte_1rw1r_32x512_8 has missing SITE definition. Check macro present in /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef file.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+EXTGRMP-781       2          ORIGIN definition is missing for sky130_sram_2kbyte_1rw1r_32x512_8 macro present in /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/DESIGN/route_finalf.inn.dat/libs/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef file.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+
+TOTAL WARNINGS: 16 
+TOTAL ERRORS: 0 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+----
+
+Ending at 2026-Aug-12 12:05:04 (2026-Aug-12 06:05:04 GMT).
+
+ Tool:                    Cadence Quantus Extraction 64-bit
+ Version:                 21.2.2-s369 Tue May 7 14:47:09 PDT 2024
+ IR Build No:             369 
+ Techfile:               
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/SQRC_RUN/_qrc_techdir/rctypical/qrcTechFile
+; version: 21.2.2-p045 
+ License(s) used:         2 of QTS300, 2 of QTS310 
+ User Name:               pnr_trainee_16
+ Host Name:               uvti_training
+ Host OS Release:         Linux 3.10.0-1160.119.1.el7.x86_64
+ Host OS Version:         #1 SMP Tue Jun 4 14:43:51 UTC 2024
+ CPU Model Name:          Intel(R) Xeon(R) Gold 6254 CPU @ 3.10GHz
+ L1d Cache:               32K
+ L1i Cache:               32K
+ L2 Cache:                1024K
+ L3 Cache:                25344K
+ Memory:                  503 GB
+ Run duration:            00:00:25 CPU time, 00:00:43 clock time
+ Max (Total) memory used: 607 MB
+ Max (CPU) memory used:   552 MB
+ Max Temp-Directory used: 92 MB
+ Nets/hour:               2128K nets/CPU-hr, 1237K nets/clock-hr
+ Design data:
+    Components:           66098
+    Phy components:       52018
+    Nets:                 14782
+    Unconnected pins:     2306
+ Warning messages:        16
+ Error messages:          0
+
+Exit code 0.
+Cadence Quantus Extraction completed successfully at 2026-Aug-12 12:05:04
+(2026-Aug-12 06:05:04 GMT).

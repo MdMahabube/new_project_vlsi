@@ -1,0 +1,4612 @@
+NET: spimemio/xfer/UNCONNECTED2190
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2174
+- no physical wire
+NET: spimemio/UNCONNECTED2293
+- no physical wire
+NET: spimemio/UNCONNECTED2261
+- no physical wire
+NET: spimemio/UNCONNECTED2229
+- no physical wire
+NET: spimemio/UNCONNECTED2197
+- no physical wire
+NET: simpleuart/UNCONNECTED2145
+- no physical wire
+NET: simpleuart/UNCONNECTED2129
+- no physical wire
+NET: memory/UNCONNECTED2107
+- no physical wire
+NET: memory/UNCONNECTED2091
+- no physical wire
+NET: memory/UNCONNECTED2075
+- no physical wire
+NET: memory/UNCONNECTED2043
+- no physical wire
+NET: memory/UNCONNECTED2027
+- no physical wire
+NET: memory/UNCONNECTED2011
+- no physical wire
+NET: memory/UNCONNECTED1995
+- no physical wire
+NET: simpleuart/UNCONNECTED2113
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1407
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1343
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1311
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1295
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1279
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1163
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1147
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1115
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1099
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1083
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1051
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1014
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED998
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED982
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED966
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED934
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED902
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED838
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED822
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED806
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED790
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED774
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED758
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED742
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED694
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED678
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED662
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED646
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED630
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED614
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED582
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED550
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED502
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED486
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED470
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED454
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED422
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED390
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED342
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED326
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED310
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED278
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED262
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED230
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED198
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED182
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED118
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED102
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED70
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED54
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED38
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED22
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED6
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED374
+- no physical wire
+NET: cpu/UNCONNECTED1961
+- no physical wire
+NET: cpu/UNCONNECTED1945
+- no physical wire
+NET: cpu/UNCONNECTED1929
+- no physical wire
+NET: cpu/UNCONNECTED1913
+- no physical wire
+NET: cpu/UNCONNECTED1897
+- no physical wire
+NET: cpu/UNCONNECTED1865
+- no physical wire
+NET: cpu/UNCONNECTED1849
+- no physical wire
+NET: cpu/UNCONNECTED1833
+- no physical wire
+NET: cpu/UNCONNECTED1817
+- no physical wire
+NET: cpu/UNCONNECTED1801
+- no physical wire
+NET: cpu/UNCONNECTED1785
+- no physical wire
+NET: cpu/UNCONNECTED1753
+- no physical wire
+NET: cpu/UNCONNECTED1705
+- no physical wire
+NET: cpu/UNCONNECTED1689
+- no physical wire
+NET: cpu/UNCONNECTED1657
+- no physical wire
+NET: cpu/UNCONNECTED1641
+- no physical wire
+NET: cpu/UNCONNECTED1625
+- no physical wire
+NET: cpu/UNCONNECTED1609
+- no physical wire
+NET: cpu/UNCONNECTED1561
+- no physical wire
+NET: cpu/UNCONNECTED1545
+- no physical wire
+NET: cpu/UNCONNECTED1529
+- no physical wire
+NET: spimemio/UNCONNECTED2275
+- no physical wire
+NET: spimemio/UNCONNECTED2211
+- no physical wire
+NET: simpleuart/UNCONNECTED2159
+- no physical wire
+NET: memory/UNCONNECTED2073
+- no physical wire
+NET: memory/UNCONNECTED2057
+- no physical wire
+NET: memory/UNCONNECTED2041
+- no physical wire
+NET: memory/UNCONNECTED2009
+- no physical wire
+NET: memory/UNCONNECTED1993
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1421
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1405
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1389
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1325
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1309
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1293
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1257
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1225
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1193
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1177
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1145
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1097
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1049
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED996
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED980
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED964
+- no physical wire
+NET: cpu/UNCONNECTED1449
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED916
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED836
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED820
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED804
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED788
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED772
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED756
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED724
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED708
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED692
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED660
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED612
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED580
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED516
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED500
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED468
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED436
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED420
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED356
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED340
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED324
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED276
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED260
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED244
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED212
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED180
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED132
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED36
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED20
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED4
+- no physical wire
+NET: cpu/UNCONNECTED1975
+- no physical wire
+NET: cpu/UNCONNECTED1943
+- no physical wire
+NET: cpu/UNCONNECTED1895
+- no physical wire
+NET: cpu/UNCONNECTED1863
+- no physical wire
+NET: cpu/UNCONNECTED1831
+- no physical wire
+NET: cpu/UNCONNECTED1815
+- no physical wire
+NET: cpu/UNCONNECTED1799
+- no physical wire
+NET: cpu/UNCONNECTED1783
+- no physical wire
+NET: cpu/UNCONNECTED1767
+- no physical wire
+NET: cpu/UNCONNECTED1751
+- no physical wire
+NET: cpu/UNCONNECTED1719
+- no physical wire
+NET: cpu/UNCONNECTED1687
+- no physical wire
+NET: cpu/UNCONNECTED1671
+- no physical wire
+NET: cpu/UNCONNECTED1655
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1129
+- no physical wire
+NET: cpu/UNCONNECTED1607
+- no physical wire
+NET: cpu/UNCONNECTED1559
+- no physical wire
+NET: cpu/UNCONNECTED1543
+- no physical wire
+NET: cpu/UNCONNECTED1511
+- no physical wire
+NET: cpu/UNCONNECTED1495
+- no physical wire
+NET: cpu/UNCONNECTED1447
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2186
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2170
+- no physical wire
+NET: spimemio/UNCONNECTED2289
+- no physical wire
+NET: spimemio/UNCONNECTED2273
+- no physical wire
+NET: cpu/UNCONNECTED1977
+- no physical wire
+NET: spimemio/UNCONNECTED2257
+- no physical wire
+NET: spimemio/UNCONNECTED2241
+- no physical wire
+NET: simpleuart/UNCONNECTED2157
+- no physical wire
+NET: simpleuart/UNCONNECTED2141
+- no physical wire
+NET: simpleuart/UNCONNECTED2125
+- no physical wire
+NET: memory/UNCONNECTED2103
+- no physical wire
+NET: memory/UNCONNECTED2087
+- no physical wire
+NET: memory/UNCONNECTED2071
+- no physical wire
+NET: memory/UNCONNECTED2039
+- no physical wire
+NET: memory/UNCONNECTED2007
+- no physical wire
+NET: memory/UNCONNECTED1991
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1435
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1419
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED548
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1403
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1371
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1355
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1339
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1323
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1291
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1275
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1255
+- no physical wire
+NET: cpu/UNCONNECTED1481
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1223
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1207
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1191
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1175
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1143
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1127
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1079
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1063
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1047
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1031
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1010
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED994
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED978
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED946
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED564
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED930
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED914
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED898
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED882
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED850
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED834
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED818
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED802
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED786
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED770
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED738
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED722
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED706
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED690
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED674
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED642
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED626
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED610
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED562
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED530
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED498
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED482
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED450
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED434
+- no physical wire
+NET: cpu/UNCONNECTED1591
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED418
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED402
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED386
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED370
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED354
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED338
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED322
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED306
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED514
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED258
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED226
+- no physical wire
+NET: cpu/UNCONNECTED1927
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED210
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED194
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED130
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED114
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED82
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED66
+- no physical wire
+NET: spimemio/UNCONNECTED2259
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED18
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1373
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED2
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED868
+- no physical wire
+NET: cpu/UNCONNECTED1957
+- no physical wire
+NET: cpu/UNCONNECTED1941
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED146
+- no physical wire
+NET: cpu/UNCONNECTED1925
+- no physical wire
+NET: cpu/UNCONNECTED1861
+- no physical wire
+NET: cpu/UNCONNECTED1845
+- no physical wire
+NET: cpu/UNCONNECTED1813
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED178
+- no physical wire
+NET: cpu/UNCONNECTED1717
+- no physical wire
+NET: cpu/UNCONNECTED1669
+- no physical wire
+NET: cpu/UNCONNECTED1653
+- no physical wire
+NET: cpu/UNCONNECTED1637
+- no physical wire
+NET: cpu/UNCONNECTED1737
+- no physical wire
+NET: cpu/UNCONNECTED1621
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED754
+- no physical wire
+NET: cpu/UNCONNECTED1573
+- no physical wire
+NET: cpu/UNCONNECTED1557
+- no physical wire
+NET: cpu/UNCONNECTED1525
+- no physical wire
+NET: cpu/UNCONNECTED1509
+- no physical wire
+NET: cpu/UNCONNECTED1493
+- no physical wire
+NET: cpu/UNCONNECTED1461
+- no physical wire
+NET: cpu/UNCONNECTED1445
+- no physical wire
+NET: spimemio/UNCONNECTED2271
+- no physical wire
+NET: spimemio/UNCONNECTED2223
+- no physical wire
+NET: spimemio/UNCONNECTED2207
+- no physical wire
+NET: simpleuart/UNCONNECTED2123
+- no physical wire
+NET: memory/UNCONNECTED2053
+- no physical wire
+NET: memory/UNCONNECTED2021
+- no physical wire
+NET: memory/UNCONNECTED2005
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1353
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1337
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED658
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1273
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1269
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1253
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1237
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1221
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1125
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1093
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1077
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1045
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1029
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED976
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED960
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED944
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED928
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED162
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED896
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED864
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED848
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED832
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED816
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED768
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED752
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED736
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED720
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED704
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED688
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED672
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED640
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED624
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED608
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED592
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED560
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED512
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED480
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED464
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED432
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED416
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1341
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED384
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED352
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED336
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED320
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED288
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED272
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED176
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED160
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED144
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1423
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED128
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED112
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED96
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED16
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED0
+- no physical wire
+NET: cpu/UNCONNECTED1971
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED134
+- no physical wire
+NET: cpu/UNCONNECTED1955
+- no physical wire
+NET: cpu/UNCONNECTED1923
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1067
+- no physical wire
+NET: cpu/UNCONNECTED1907
+- no physical wire
+NET: cpu/UNCONNECTED1875
+- no physical wire
+NET: cpu/UNCONNECTED1843
+- no physical wire
+NET: cpu/UNCONNECTED1795
+- no physical wire
+NET: cpu/UNCONNECTED1779
+- no physical wire
+NET: cpu/UNCONNECTED1763
+- no physical wire
+NET: cpu/UNCONNECTED1731
+- no physical wire
+NET: cpu/UNCONNECTED1715
+- no physical wire
+NET: cpu/UNCONNECTED1635
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED85
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED945
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1166
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED897
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED830
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED881
+- no physical wire
+NET: cpu/UNCONNECTED1465
+- no physical wire
+NET: memory/UNCONNECTED2101
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2179
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED265
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1336
+- no physical wire
+NET: memory/UNCONNECTED1999
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED833
+- no physical wire
+NET: cpu/UNCONNECTED1778
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED983
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1243
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED737
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED874
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED813
+- no physical wire
+NET: cpu/UNCONNECTED1643
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED593
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED545
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED843
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED433
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED294
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED224
+- no physical wire
+NET: spimemio/UNCONNECTED2234
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED992
+- no physical wire
+NET: cpu/UNCONNECTED1458
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED273
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED975
+- no physical wire
+NET: cpu/UNCONNECTED1784
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED225
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED161
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED783
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED91
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED97
+- no physical wire
+NET: cpu/UNCONNECTED1552
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED33
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED17
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1095
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1404
+- no physical wire
+NET: cpu/UNCONNECTED1972
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED634
+- no physical wire
+NET: cpu/UNCONNECTED1940
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1082
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED962
+- no physical wire
+NET: cpu/UNCONNECTED1908
+- no physical wire
+NET: cpu/UNCONNECTED1947
+- no physical wire
+NET: cpu/UNCONNECTED1892
+- no physical wire
+NET: cpu/UNCONNECTED1844
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED104
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED314
+- no physical wire
+NET: cpu/UNCONNECTED1796
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1258
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED568
+- no physical wire
+NET: cpu/UNCONNECTED1527
+- no physical wire
+NET: cpu/UNCONNECTED1764
+- no physical wire
+NET: cpu/UNCONNECTED1700
+- no physical wire
+NET: cpu/UNCONNECTED1668
+- no physical wire
+NET: cpu/UNCONNECTED1492
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED780
+- no physical wire
+NET: cpu/UNCONNECTED1476
+- no physical wire
+NET: cpu/decoded_rd[3]
+- no physical wire
+NET: spimemio/UNCONNECTED2206
+- no physical wire
+NET: cpu/UNCONNECTED1786
+- no physical wire
+NET: simpleuart/UNCONNECTED2122
+- no physical wire
+NET: memory/UNCONNECTED2068
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED119
+- no physical wire
+NET: memory/UNCONNECTED2020
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED435
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED92
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1368
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED84
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED37
+- no physical wire
+NET: memory/UNCONNECTED2095
+- no physical wire
+NET: memory/UNCONNECTED2097
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1252
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED578
+- no physical wire
+NET: spimemio/UNCONNECTED2235
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1204
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1188
+- no physical wire
+NET: memory/UNCONNECTED2081
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1172
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1317
+- no physical wire
+NET: spimemio/UNCONNECTED2230
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1061
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1108
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED844
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED576
+- no physical wire
+NET: cpu/UNCONNECTED1537
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED254
+- no physical wire
+NET: cpu/UNCONNECTED1915
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED907
+- no physical wire
+NET: simpleuart/UNCONNECTED2154
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED879
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED815
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED64
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1007
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED751
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED735
+- no physical wire
+NET: cpu/UNCONNECTED1549
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED831
+- no physical wire
+NET: memory/UNCONNECTED2083
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED687
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED607
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED383
+- no physical wire
+NET: spimemio/UNCONNECTED2222
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1081
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED271
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED255
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1194
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1352
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED223
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED941
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1256
+- no physical wire
+NET: simpleuart/UNCONNECTED2155
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED794
+- no physical wire
+NET: cpu/UNCONNECTED1732
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED175
+- no physical wire
+NET: cpu/UNCONNECTED1965
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED865
+- no physical wire
+NET: memory/UNCONNECTED2016
+- no physical wire
+NET: spimemio/UNCONNECTED2228
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED79
+- no physical wire
+NET: cpu/UNCONNECTED1867
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED47
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED31
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED967
+- no physical wire
+NET: cpu/UNCONNECTED1938
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED401
+- no physical wire
+NET: cpu/UNCONNECTED1922
+- no physical wire
+NET: cpu/UNCONNECTED1858
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED331
+- no physical wire
+NET: cpu/UNCONNECTED1826
+- no physical wire
+NET: cpu/UNCONNECTED1810
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1140
+- no physical wire
+NET: cpu/UNCONNECTED1794
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED862
+- no physical wire
+NET: cpu/UNCONNECTED1762
+- no physical wire
+NET: simpleuart/UNCONNECTED2168
+- no physical wire
+NET: simpleuart/UNCONNECTED2139
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED465
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED458
+- no physical wire
+NET: cpu/UNCONNECTED1698
+- no physical wire
+NET: cpu/UNCONNECTED1460
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED478
+- no physical wire
+NET: cpu/UNCONNECTED1586
+- no physical wire
+NET: cpu/UNCONNECTED1570
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED257
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED270
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1011
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED959
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED351
+- no physical wire
+NET: cpu/UNCONNECTED1612
+- no physical wire
+NET: cpu/UNCONNECTED1522
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED977
+- no physical wire
+NET: memory/UNCONNECTED2000
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED511
+- no physical wire
+NET: spimemio/UNCONNECTED2252
+- no physical wire
+NET: spimemio/UNCONNECTED2220
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED447
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1054
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED302
+- no physical wire
+NET: cpu/UNCONNECTED1757
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1272
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED335
+- no physical wire
+NET: spimemio/UNCONNECTED2204
+- no physical wire
+NET: cpu/UNCONNECTED1829
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1200
+- no physical wire
+NET: memory/UNCONNECTED2003
+- no physical wire
+NET: simpleuart/UNCONNECTED2136
+- no physical wire
+NET: memory/UNCONNECTED2082
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED181
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED609
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED909
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1286
+- no physical wire
+NET: memory/UNCONNECTED2066
+- no physical wire
+NET: cpu/UNCONNECTED1695
+- no physical wire
+NET: memory/UNCONNECTED2050
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED206
+- no physical wire
+NET: cpu/UNCONNECTED1901
+- no physical wire
+NET: memory/UNCONNECTED2018
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1211
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED477
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1184
+- no physical wire
+NET: memory/UNCONNECTED1986
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED586
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED919
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED442
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED918
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1414
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1398
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED892
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED577
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2180
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1366
+- no physical wire
+NET: cpu/UNCONNECTED1716
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1318
+- no physical wire
+NET: cpu/UNCONNECTED1924
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1302
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED68
+- no physical wire
+NET: spimemio/UNCONNECTED2286
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1030
+- no physical wire
+NET: cpu/UNCONNECTED1581
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1234
+- no physical wire
+NET: cpu/UNCONNECTED1805
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1008
+- no physical wire
+NET: cpu/UNCONNECTED1890
+- no physical wire
+NET: cpu/UNCONNECTED1594
+- no physical wire
+NET: simpleuart/UNCONNECTED2128
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1186
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1154
+- no physical wire
+NET: cpu/UNCONNECTED1835
+- no physical wire
+NET: cpu/UNCONNECTED1749
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED542
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1122
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2193
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1138
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1106
+- no physical wire
+NET: cpu/UNCONNECTED1811
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1021
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED849
+- no physical wire
+NET: cpu/UNCONNECTED1644
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1080
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED543
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED765
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED749
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1305
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED733
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1390
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED701
+- no physical wire
+NET: spimemio/UNCONNECTED2249
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED877
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED845
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED685
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED637
+- no physical wire
+NET: cpu/UNCONNECTED1738
+- no physical wire
+NET: cpu/UNCONNECTED1832
+- no physical wire
+NET: cpu/UNCONNECTED1638
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED600
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1254
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED525
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED509
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED169
+- no physical wire
+NET: cpu/UNCONNECTED1610
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED274
+- no physical wire
+NET: spimemio/UNCONNECTED2210
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1003
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED429
+- no physical wire
+NET: cpu/UNCONNECTED1868
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED703
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED124
+- no physical wire
+NET: cpu/UNCONNECTED1953
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED397
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED711
+- no physical wire
+NET: cpu/UNCONNECTED1538
+- no physical wire
+NET: spimemio/UNCONNECTED2268
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED878
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED381
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2189
+- no physical wire
+NET: spimemio/UNCONNECTED2254
+- no physical wire
+NET: spimemio/UNCONNECTED2215
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED143
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1438
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED76
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED365
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED333
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED538
+- no physical wire
+NET: cpu/UNCONNECTED1713
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED317
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED524
+- no physical wire
+NET: memory/UNCONNECTED2076
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED301
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED253
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED825
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED237
+- no physical wire
+NET: cpu/UNCONNECTED1565
+- no physical wire
+NET: cpu/UNCONNECTED1874
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED221
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED740
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED755
+- no physical wire
+NET: cpu/UNCONNECTED1479
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED189
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED173
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED406
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED337
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED157
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED778
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED141
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED48
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED93
+- no physical wire
+NET: cpu/UNCONNECTED1691
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED13
+- no physical wire
+NET: cpu/UNCONNECTED1968
+- no physical wire
+NET: cpu/UNCONNECTED1952
+- no physical wire
+NET: cpu/UNCONNECTED1936
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED452
+- no physical wire
+NET: cpu/UNCONNECTED1904
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1433
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED334
+- no physical wire
+NET: spimemio/UNCONNECTED2244
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED476
+- no physical wire
+NET: simpleuart/UNCONNECTED2127
+- no physical wire
+NET: cpu/UNCONNECTED1856
+- no physical wire
+NET: cpu/UNCONNECTED1840
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED252
+- no physical wire
+NET: cpu/UNCONNECTED1808
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED984
+- no physical wire
+NET: spimemio/UNCONNECTED2238
+- no physical wire
+NET: cpu/UNCONNECTED1744
+- no physical wire
+NET: cpu/UNCONNECTED1739
+- no physical wire
+NET: cpu/UNCONNECTED1728
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED497
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED52
+- no physical wire
+NET: cpu/UNCONNECTED1664
+- no physical wire
+NET: cpu/UNCONNECTED1648
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED559
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1369
+- no physical wire
+NET: cpu/UNCONNECTED1474
+- no physical wire
+NET: cpu/UNCONNECTED1659
+- no physical wire
+NET: cpu/UNCONNECTED1889
+- no physical wire
+NET: cpu/UNCONNECTED1536
+- no physical wire
+NET: memory/UNCONNECTED2059
+- no physical wire
+NET: cpu/UNCONNECTED1682
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED487
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED852
+- no physical wire
+NET: spimemio/UNCONNECTED2269
+- no physical wire
+NET: cpu/UNCONNECTED1520
+- no physical wire
+NET: cpu/UNCONNECTED1504
+- no physical wire
+NET: cpu/UNCONNECTED1488
+- no physical wire
+NET: cpu/UNCONNECTED1859
+- no physical wire
+NET: cpu/UNCONNECTED1456
+- no physical wire
+NET: cpu/UNCONNECTED1834
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1009
+- no physical wire
+NET: spimemio/UNCONNECTED2250
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1042
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED757
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED240
+- no physical wire
+NET: spimemio/UNCONNECTED2218
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED495
+- no physical wire
+NET: cpu/UNCONNECTED1827
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1304
+- no physical wire
+NET: simpleuart/UNCONNECTED2134
+- no physical wire
+NET: simpleuart/UNCONNECTED2118
+- no physical wire
+NET: memory/UNCONNECTED2096
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED641
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1046
+- no physical wire
+NET: memory/UNCONNECTED2048
+- no physical wire
+NET: memory/UNCONNECTED2032
+- no physical wire
+NET: cpu/UNCONNECTED1893
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED846
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED556
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED529
+- no physical wire
+NET: cpu/UNCONNECTED1472
+- no physical wire
+NET: cpu/UNCONNECTED1477
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED111
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1412
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED821
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED596
+- no physical wire
+NET: memory/UNCONNECTED2067
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED90
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED329
+- no physical wire
+NET: memory/UNCONNECTED2077
+- no physical wire
+NET: cpu/UNCONNECTED1500
+- no physical wire
+NET: cpu/UNCONNECTED1756
+- no physical wire
+NET: cpu/UNCONNECTED1905
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED129
+- no physical wire
+NET: cpu/UNCONNECTED1884
+- no physical wire
+NET: cpu/UNCONNECTED1911
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED297
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED201
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1057
+- no physical wire
+NET: cpu/UNCONNECTED1630
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED725
+- no physical wire
+NET: cpu/UNCONNECTED1906
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1169
+- no physical wire
+NET: spimemio/UNCONNECTED2243
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED923
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1417
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED847
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1283
+- no physical wire
+NET: cpu/UNCONNECTED1444
+- no physical wire
+NET: cpu/UNCONNECTED1618
+- no physical wire
+NET: cpu/UNCONNECTED1642
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED779
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED761
+- no physical wire
+NET: spimemio/UNCONNECTED2270
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1126
+- no physical wire
+NET: spimemio/UNCONNECTED2287
+- no physical wire
+NET: cpu/UNCONNECTED1650
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1012
+- no physical wire
+NET: cpu/UNCONNECTED1490
+- no physical wire
+NET: cpu/UNCONNECTED1563
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED137
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED73
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED263
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED679
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1218
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED665
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED913
+- no physical wire
+NET: cpu/UNCONNECTED1964
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED266
+- no physical wire
+NET: cpu/UNCONNECTED1690
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED900
+- no physical wire
+NET: cpu/UNCONNECTED1909
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED233
+- no physical wire
+NET: simpleuart/UNCONNECTED2138
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED839
+- no physical wire
+NET: cpu/UNCONNECTED1782
+- no physical wire
+NET: memory/UNCONNECTED2034
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1365
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2195
+- no physical wire
+NET: cpu/UNCONNECTED1932
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1074
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED77
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED307
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1284
+- no physical wire
+NET: simpleuart/UNCONNECTED2160
+- no physical wire
+NET: cpu/UNCONNECTED1916
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED973
+- no physical wire
+NET: cpu/UNCONNECTED1900
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED404
+- no physical wire
+NET: memory/UNCONNECTED2014
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1183
+- no physical wire
+NET: cpu/UNCONNECTED1797
+- no physical wire
+NET: cpu/UNCONNECTED1956
+- no physical wire
+NET: cpu/UNCONNECTED1882
+- no physical wire
+NET: simpleuart/UNCONNECTED2116
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1116
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED513
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED372
+- no physical wire
+NET: cpu/UNCONNECTED1852
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1259
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1266
+- no physical wire
+NET: cpu/UNCONNECTED1820
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED217
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1384
+- no physical wire
+NET: cpu/UNCONNECTED1760
+- no physical wire
+NET: cpu/UNCONNECTED1617
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED631
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED534
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED681
+- no physical wire
+NET: cpu/UNCONNECTED1804
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1387
+- no physical wire
+NET: cpu/UNCONNECTED1937
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1397
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1180
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1378
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED303
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED5
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED699
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED369
+- no physical wire
+NET: cpu/UNCONNECTED1708
+- no physical wire
+NET: cpu/UNCONNECTED1660
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED14
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED950
+- no physical wire
+NET: spimemio/UNCONNECTED2291
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED298
+- no physical wire
+NET: memory/UNCONNECTED2033
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED105
+- no physical wire
+NET: cpu/UNCONNECTED1576
+- no physical wire
+NET: cpu/UNCONNECTED1532
+- no physical wire
+NET: cpu/UNCONNECTED1484
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED625
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED695
+- no physical wire
+NET: cpu/UNCONNECTED1452
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED205
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2191
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED829
+- no physical wire
+NET: spimemio/UNCONNECTED2294
+- no physical wire
+NET: spimemio/UNCONNECTED2278
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED639
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1346
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED993
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED379
+- no physical wire
+NET: simpleuart/UNCONNECTED2162
+- no physical wire
+NET: memory/UNCONNECTED2108
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1096
+- no physical wire
+NET: cpu/UNCONNECTED1680
+- no physical wire
+NET: memory/UNCONNECTED2092
+- no physical wire
+NET: spimemio/UNCONNECTED2236
+- no physical wire
+NET: memory/UNCONNECTED2100
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED358
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1350
+- no physical wire
+NET: memory/UNCONNECTED2044
+- no physical wire
+NET: cpu/UNCONNECTED1806
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED605
+- no physical wire
+NET: memory/UNCONNECTED2028
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1328
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1134
+- no physical wire
+NET: cpu/UNCONNECTED1620
+- no physical wire
+NET: spimemio/UNCONNECTED2245
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED57
+- no physical wire
+NET: cpu/UNCONNECTED1724
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED313
+- no physical wire
+NET: spimemio/UNCONNECTED2253
+- no physical wire
+NET: cpu/UNCONNECTED1788
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED448
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED555
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED376
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1351
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED50
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED281
+- no physical wire
+NET: cpu/UNCONNECTED1566
+- no physical wire
+NET: cpu/UNCONNECTED1818
+- no physical wire
+NET: cpu/UNCONNECTED1558
+- no physical wire
+NET: cpu/UNCONNECTED1516
+- no physical wire
+NET: cpu/UNCONNECTED1588
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1316
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1103
+- no physical wire
+NET: cpu/UNCONNECTED1692
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED651
+- no physical wire
+NET: simpleuart/UNCONNECTED2158
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED164
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1203
+- no physical wire
+NET: memory/UNCONNECTED2060
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED191
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED857
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1118
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED566
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED10
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED220
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1148
+- no physical wire
+NET: cpu/UNCONNECTED1970
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED731
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1161
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1084
+- no physical wire
+NET: memory/UNCONNECTED1996
+- no physical wire
+NET: cpu/UNCONNECTED1454
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2181
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED943
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1210
+- no physical wire
+NET: memory/UNCONNECTED1992
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED763
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1173
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1036
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED39
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED9
+- no physical wire
+NET: cpu/UNCONNECTED1568
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1015
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED152
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED546
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED801
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2172
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1262
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED584
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED903
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED714
+- no physical wire
+NET: cpu/UNCONNECTED1920
+- no physical wire
+NET: cpu/UNCONNECTED1605
+- no physical wire
+NET: cpu/UNCONNECTED1582
+- no physical wire
+NET: memory/UNCONNECTED2054
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1090
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED45
+- no physical wire
+NET: cpu/UNCONNECTED1792
+- no physical wire
+NET: cpu/UNCONNECTED1464
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED666
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1271
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1111
+- no physical wire
+NET: spimemio/UNCONNECTED2266
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED377
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED888
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED304
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED199
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED569
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED87
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED279
+- no physical wire
+NET: cpu/UNCONNECTED1814
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED209
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED939
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED116
+- no physical wire
+NET: memory/UNCONNECTED2036
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED705
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1396
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED183
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED912
+- no physical wire
+NET: cpu/UNCONNECTED1926
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED29
+- no physical wire
+NET: memory/UNCONNECTED2111
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED929
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED135
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1026
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1132
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1190
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED661
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED147
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1329
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED799
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED308
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED539
+- no physical wire
+NET: cpu/UNCONNECTED1578
+- no physical wire
+NET: memory/UNCONNECTED2012
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED710
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED457
+- no physical wire
+NET: cpu/UNCONNECTED1976
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1068
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1427
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED98
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED55
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED547
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED633
+- no physical wire
+NET: memory/UNCONNECTED2079
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED153
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1385
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED261
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1344
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1005
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1292
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1141
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED375
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED533
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED718
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1233
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED653
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED388
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED71
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED647
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1229
+- no physical wire
+NET: cpu/UNCONNECTED1949
+- no physical wire
+NET: cpu/UNCONNECTED1712
+- no physical wire
+NET: spimemio/UNCONNECTED2299
+- no physical wire
+NET: cpu/UNCONNECTED1979
+- no physical wire
+NET: cpu/UNCONNECTED1627
+- no physical wire
+NET: memory/UNCONNECTED2061
+- no physical wire
+NET: spimemio/UNCONNECTED2284
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED289
+- no physical wire
+NET: cpu/UNCONNECTED1498
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1028
+- no physical wire
+NET: cpu/UNCONNECTED1468
+- no physical wire
+NET: cpu/UNCONNECTED1819
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED615
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1142
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED235
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED496
+- no physical wire
+NET: cpu/UNCONNECTED1914
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED409
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED791
+- no physical wire
+NET: cpu/UNCONNECTED1881
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED363
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED11
+- no physical wire
+NET: cpu/UNCONNECTED1812
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1362
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED583
+- no physical wire
+NET: cpu/UNCONNECTED1466
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED185
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED426
+- no physical wire
+NET: simpleuart/UNCONNECTED2130
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED588
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1392
+- no physical wire
+NET: cpu/UNCONNECTED1593
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED884
+- no physical wire
+NET: cpu/UNCONNECTED1746
+- no physical wire
+NET: cpu/UNCONNECTED1518
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED488
+- no physical wire
+NET: cpu/UNCONNECTED1853
+- no physical wire
+NET: cpu/UNCONNECTED1898
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1375
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED142
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED769
+- no physical wire
+NET: simpleuart/UNCONNECTED2149
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED729
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED167
+- no physical wire
+NET: cpu/UNCONNECTED1765
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED197
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1245
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED854
+- no physical wire
+NET: cpu/UNCONNECTED1667
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED411
+- no physical wire
+NET: cpu/UNCONNECTED1847
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED969
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED747
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED527
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED95
+- no physical wire
+NET: cpu/UNCONNECTED1866
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1006
+- no physical wire
+NET: cpu/UNCONNECTED1564
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED264
+- no physical wire
+NET: simpleuart/UNCONNECTED2114
+- no physical wire
+NET: memory/UNCONNECTED2102
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1306
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED373
+- no physical wire
+NET: cpu/UNCONNECTED1514
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED7
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED726
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED606
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED535
+- no physical wire
+NET: memory/UNCONNECTED1984
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED567
+- no physical wire
+NET: simpleuart/UNCONNECTED2143
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED123
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1195
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED86
+- no physical wire
+NET: memory/UNCONNECTED2098
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED231
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED663
+- no physical wire
+NET: cpu/UNCONNECTED1710
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1342
+- no physical wire
+NET: cpu/UNCONNECTED1548
+- no physical wire
+NET: cpu/UNCONNECTED1658
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1086
+- no physical wire
+NET: cpu/UNCONNECTED1483
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED664
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1425
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED684
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED385
+- no physical wire
+NET: cpu/UNCONNECTED1888
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED551
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1205
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED285
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED421
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED585
+- no physical wire
+NET: spimemio/UNCONNECTED2303
+- no physical wire
+NET: spimemio/UNCONNECTED2264
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED151
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED979
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2175
+- no physical wire
+NET: spimemio/UNCONNECTED2280
+- no physical wire
+NET: cpu/UNCONNECTED1802
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED826
+- no physical wire
+NET: cpu/mem_16bit_buffer[13]
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED103
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED405
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED145
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1033
+- no physical wire
+NET: memory/UNCONNECTED2030
+- no physical wire
+NET: cpu/UNCONNECTED1450
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED561
+- no physical wire
+NET: memory/UNCONNECTED2038
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED23
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED424
+- no physical wire
+NET: cpu/UNCONNECTED1524
+- no physical wire
+NET: cpu/UNCONNECTED1676
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED483
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED467
+- no physical wire
+NET: cpu/UNCONNECTED1674
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED507
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED249
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED311
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED697
+- no physical wire
+NET: cpu/UNCONNECTED1546
+- no physical wire
+NET: memory/UNCONNECTED2055
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED65
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED75
+- no physical wire
+NET: simpleuart/UNCONNECTED2146
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED256
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1187
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1228
+- no physical wire
+NET: simpleuart/UNCONNECTED2161
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED407
+- no physical wire
+NET: spimemio/UNCONNECTED2205
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1236
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED439
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED621
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1032
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED170
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED455
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED246
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED350
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED41
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED391
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1239
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED655
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1104
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED940
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED648
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED475
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1437
+- no physical wire
+NET: memory/UNCONNECTED2062
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED812
+- no physical wire
+NET: memory/UNCONNECTED2017
+- no physical wire
+NET: cpu/UNCONNECTED1877
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1424
+- no physical wire
+NET: cpu/UNCONNECTED1596
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED445
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED871
+- no physical wire
+NET: cpu/UNCONNECTED1626
+- no physical wire
+NET: cpu/UNCONNECTED1850
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED532
+- no physical wire
+NET: cpu/UNCONNECTED1455
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED759
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED503
+- no physical wire
+NET: cpu/UNCONNECTED1556
+- no physical wire
+NET: cpu/UNCONNECTED1854
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED427
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1113
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1232
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED165
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1050
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED283
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1382
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED775
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED743
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED553
+- no physical wire
+NET: cpu/UNCONNECTED1870
+- no physical wire
+NET: cpu/UNCONNECTED1696
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED489
+- no physical wire
+NET: cpu/UNCONNECTED1616
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1072
+- no physical wire
+NET: cpu/UNCONNECTED1860
+- no physical wire
+NET: cpu/UNCONNECTED1604
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1064
+- no physical wire
+NET: spimemio/UNCONNECTED2282
+- no physical wire
+NET: cpu/UNCONNECTED1475
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1181
+- no physical wire
+NET: cpu/UNCONNECTED1772
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED717
+- no physical wire
+NET: simpleuart/UNCONNECTED2147
+- no physical wire
+NET: memory/UNCONNECTED2089
+- no physical wire
+NET: spimemio/UNCONNECTED2216
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1308
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED207
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED523
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1137
+- no physical wire
+NET: cpu/UNCONNECTED1822
+- no physical wire
+NET: cpu/UNCONNECTED1891
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED251
+- no physical wire
+NET: cpu/UNCONNECTED1842
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED855
+- no physical wire
+NET: cpu/UNCONNECTED1583
+- no physical wire
+NET: cpu/UNCONNECTED1580
+- no physical wire
+NET: cpu/UNCONNECTED1499
+- no physical wire
+NET: cpu/UNCONNECTED1770
+- no physical wire
+NET: cpu/UNCONNECTED1470
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED171
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED177
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1013
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED108
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1189
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED935
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2188
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED72
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1264
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED43
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1268
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED785
+- no physical wire
+NET: spimemio/UNCONNECTED2304
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED345
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED159
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED767
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1416
+- no physical wire
+NET: cpu/UNCONNECTED1551
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1241
+- no physical wire
+NET: cpu/UNCONNECTED1508
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED859
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED895
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1359
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1226
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1171
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED32
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED3
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED441
+- no physical wire
+NET: cpu/UNCONNECTED1600
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED635
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED797
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED188
+- no physical wire
+NET: spimemio/UNCONNECTED2231
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED505
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED781
+- no physical wire
+NET: cpu/UNCONNECTED1873
+- no physical wire
+NET: spimemio/UNCONNECTED2298
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED689
+- no physical wire
+NET: cpu/UNCONNECTED1879
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED393
+- no physical wire
+NET: cpu/UNCONNECTED1876
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED601
+- no physical wire
+NET: cpu/UNCONNECTED1836
+- no physical wire
+NET: cpu/UNCONNECTED1828
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED463
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1248
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1035
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1157
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED744
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED380
+- no physical wire
+NET: memory/UNCONNECTED2084
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED287
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1320
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1066
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1220
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED649
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED887
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1400
+- no physical wire
+NET: cpu/UNCONNECTED1954
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED784
+- no physical wire
+NET: cpu/UNCONNECTED1632
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED155
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED713
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED69
+- no physical wire
+NET: spimemio/UNCONNECTED2198
+- no physical wire
+NET: cpu/UNCONNECTED1921
+- no physical wire
+NET: cpu/UNCONNECTED1540
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED228
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1432
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED24
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED951
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED809
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED911
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1070
+- no physical wire
+NET: memory/UNCONNECTED1988
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED196
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED202
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED873
+- no physical wire
+NET: cpu/UNCONNECTED1631
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED368
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED61
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED247
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED925
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED905
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED937
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1338
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED953
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1426
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED985
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED300
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED587
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1038
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED611
+- no physical wire
+NET: cpu/UNCONNECTED1824
+- no physical wire
+NET: memory/UNCONNECTED2052
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1056
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED927
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1150
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1334
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED239
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED591
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED805
+- no physical wire
+NET: cpu/UNCONNECTED1723
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED619
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED321
+- no physical wire
+NET: cpu/UNCONNECTED1934
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED893
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED827
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED991
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1069
+- no physical wire
+NET: cpu/UNCONNECTED1634
+- no physical wire
+NET: cpu/UNCONNECTED1946
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1198
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1214
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED148
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED299
+- no physical wire
+NET: simpleuart/UNCONNECTED2120
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1376
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED461
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1109
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED519
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1282
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED861
+- no physical wire
+NET: cpu/UNCONNECTED1759
+- no physical wire
+NET: spimemio/UNCONNECTED2213
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED305
+- no physical wire
+NET: spimemio/UNCONNECTED2300
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED719
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED415
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1298
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED154
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1160
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1391
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1136
+- no physical wire
+NET: cpu/UNCONNECTED1741
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED341
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1219
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1307
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1394
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1131
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED295
+- no physical wire
+NET: simpleuart/UNCONNECTED2148
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED438
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1410
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1242
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1374
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED359
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED598
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED27
+- no physical wire
+NET: memory/UNCONNECTED1998
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1434
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED575
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED250
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED557
+- no physical wire
+NET: cpu/UNCONNECTED1519
+- no physical wire
+NET: cpu/UNCONNECTED1838
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1201
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1152
+- no physical wire
+NET: cpu/UNCONNECTED1572
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED863
+- no physical wire
+NET: cpu/UNCONNECTED1615
+- no physical wire
+NET: memory/UNCONNECTED2078
+- no physical wire
+NET: cpu/UNCONNECTED1602
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED59
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED671
+- no physical wire
+NET: spimemio/UNCONNECTED2296
+- no physical wire
+NET: simpleuart/UNCONNECTED2119
+- no physical wire
+NET: cpu/UNCONNECTED1930
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1128
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED158
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1040
+- no physical wire
+NET: cpu/UNCONNECTED1747
+- no physical wire
+NET: memory/UNCONNECTED2001
+- no physical wire
+NET: spimemio/UNCONNECTED2227
+- no physical wire
+NET: cpu/UNCONNECTED1584
+- no physical wire
+NET: cpu/UNCONNECTED1587
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED238
+- no physical wire
+NET: cpu/UNCONNECTED1486
+- no physical wire
+NET: cpu/UNCONNECTED1502
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1179
+- no physical wire
+NET: cpu/UNCONNECTED1534
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1149
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED817
+- no physical wire
+NET: cpu/UNCONNECTED1506
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED870
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1052
+- no physical wire
+NET: cpu/UNCONNECTED1550
+- no physical wire
+NET: cpu/UNCONNECTED1598
+- no physical wire
+NET: cpu/UNCONNECTED1969
+- no physical wire
+NET: cpu/UNCONNECTED1614
+- no physical wire
+NET: cpu/UNCONNECTED1513
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED727
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1408
+- no physical wire
+NET: cpu/UNCONNECTED1662
+- no physical wire
+NET: cpu/UNCONNECTED1745
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1364
+- no physical wire
+NET: cpu/UNCONNECTED1678
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED807
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED214
+- no physical wire
+NET: cpu/UNCONNECTED1774
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED921
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED999
+- no physical wire
+NET: cpu/UNCONNECTED1790
+- no physical wire
+NET: memory/UNCONNECTED2046
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED25
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED444
+- no physical wire
+NET: cpu/UNCONNECTED1886
+- no physical wire
+NET: spimemio/UNCONNECTED2305
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED382
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED89
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED948
+- no physical wire
+NET: cpu/UNCONNECTED1510
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED94
+- no physical wire
+NET: cpu/UNCONNECTED1902
+- no physical wire
+NET: simpleuart/UNCONNECTED2140
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED798
+- no physical wire
+NET: cpu/UNCONNECTED1441
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1330
+- no physical wire
+NET: cpu/UNCONNECTED1918
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED15
+- no physical wire
+NET: cpu/UNCONNECTED1959
+- no physical wire
+NET: cpu/UNCONNECTED1966
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED793
+- no physical wire
+NET: cpu/UNCONNECTED1501
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED730
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED676
+- no physical wire
+NET: cpu/UNCONNECTED1758
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED184
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED139
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1332
+- no physical wire
+NET: cpu/UNCONNECTED1442
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1213
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED203
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED841
+- no physical wire
+NET: memory/UNCONNECTED2090
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED431
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED219
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1315
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1401
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1288
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED267
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1196
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1294
+- no physical wire
+NET: cpu/UNCONNECTED1645
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED315
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2182
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED479
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED693
+- no physical wire
+NET: cpu/UNCONNECTED1535
+- no physical wire
+NET: cpu/UNCONNECTED1639
+- no physical wire
+NET: cpu/UNCONNECTED1887
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED623
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1185
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED471
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED163
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED760
+- no physical wire
+NET: cpu/UNCONNECTED1629
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1017
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED395
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED443
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED745
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED869
+- no physical wire
+NET: cpu/UNCONNECTED1776
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED972
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED459
+- no physical wire
+NET: spimemio/UNCONNECTED2265
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED187
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED571
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED667
+- no physical wire
+NET: cpu/UNCONNECTED1780
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED683
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED537
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED715
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED349
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED875
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1324
+- no physical wire
+NET: simpleuart/UNCONNECTED2166
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED891
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED573
+- no physical wire
+NET: cpu/UNCONNECTED1903
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED348
+- no physical wire
+NET: spimemio/UNCONNECTED2200
+- no physical wire
+NET: spimemio/UNCONNECTED2232
+- no physical wire
+NET: cpu/UNCONNECTED1577
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED80
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1020
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1024
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1244
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED541
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1168
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED856
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED589
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED347
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1300
+- no physical wire
+NET: cpu/UNCONNECTED1623
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED673
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED423
+- no physical wire
+NET: cpu/UNCONNECTED1673
+- no physical wire
+NET: cpu/UNCONNECTED1791
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1380
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1110
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1158
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1357
+- no physical wire
+NET: cpu/UNCONNECTED1589
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED195
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1174
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1206
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1222
+- no physical wire
+NET: cpu/UNCONNECTED1575
+- no physical wire
+NET: cpu/UNCONNECTED1740
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED319
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1238
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1274
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1091
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1290
+- no physical wire
+NET: cpu/UNCONNECTED1679
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED707
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1322
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED657
+- no physical wire
+NET: cpu/UNCONNECTED1491
+- no physical wire
+NET: cpu/UNCONNECTED1704
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED172
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1386
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED974
+- no physical wire
+NET: cpu/UNCONNECTED1628
+- no physical wire
+NET: memory/UNCONNECTED2022
+- no physical wire
+NET: memory/UNCONNECTED2070
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED570
+- no physical wire
+NET: simpleuart/UNCONNECTED2124
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED30
+- no physical wire
+NET: simpleuart/UNCONNECTED2156
+- no physical wire
+NET: spimemio/UNCONNECTED2224
+- no physical wire
+NET: memory/UNCONNECTED2104
+- no physical wire
+NET: memory/UNCONNECTED2002
+- no physical wire
+NET: cpu/UNCONNECTED1496
+- no physical wire
+NET: memory/UNCONNECTED2094
+- no physical wire
+NET: spimemio/UNCONNECTED2240
+- no physical wire
+NET: spimemio/UNCONNECTED2256
+- no physical wire
+NET: spimemio/UNCONNECTED2272
+- no physical wire
+NET: spimemio/UNCONNECTED2288
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2185
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED748
+- no physical wire
+NET: cpu/UNCONNECTED1478
+- no physical wire
+NET: cpu/UNCONNECTED1646
+- no physical wire
+NET: cpu/UNCONNECTED1494
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED473
+- no physical wire
+NET: cpu/UNCONNECTED1526
+- no physical wire
+NET: spimemio/UNCONNECTED2209
+- no physical wire
+NET: cpu/UNCONNECTED1542
+- no physical wire
+NET: cpu/UNCONNECTED1574
+- no physical wire
+NET: cpu/UNCONNECTED1590
+- no physical wire
+NET: cpu/UNCONNECTED1742
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED858
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED957
+- no physical wire
+NET: memory/UNCONNECTED2004
+- no physical wire
+NET: cpu/UNCONNECTED1606
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED654
+- no physical wire
+NET: cpu/UNCONNECTED1654
+- no physical wire
+NET: cpu/UNCONNECTED1670
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED357
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1151
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1270
+- no physical wire
+NET: cpu/UNCONNECTED1686
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED552
+- no physical wire
+NET: memory/UNCONNECTED2047
+- no physical wire
+NET: cpu/UNCONNECTED1702
+- no physical wire
+NET: cpu/UNCONNECTED1718
+- no physical wire
+NET: cpu/UNCONNECTED1734
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED290
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED947
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1078
+- no physical wire
+NET: cpu/UNCONNECTED1750
+- no physical wire
+NET: cpu/UNCONNECTED1766
+- no physical wire
+NET: cpu/UNCONNECTED1553
+- no physical wire
+NET: cpu/UNCONNECTED1830
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1060
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED499
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1170
+- no physical wire
+NET: cpu/UNCONNECTED1894
+- no physical wire
+NET: cpu/UNCONNECTED1942
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED361
+- no physical wire
+NET: cpu/UNCONNECTED1531
+- no physical wire
+NET: cpu/UNCONNECTED1974
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED19
+- no physical wire
+NET: cpu/UNCONNECTED1720
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED35
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED67
+- no physical wire
+NET: cpu/UNCONNECTED1771
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED99
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1312
+- no physical wire
+NET: cpu/UNCONNECTED1878
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED131
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED259
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED823
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1182
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED179
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED211
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED227
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED243
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED517
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED275
+- no physical wire
+NET: memory/UNCONNECTED2042
+- no physical wire
+NET: cpu/UNCONNECTED1950
+- no physical wire
+NET: spimemio/UNCONNECTED2248
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED762
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED291
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1156
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED323
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED339
+- no physical wire
+NET: cpu/UNCONNECTED1910
+- no physical wire
+NET: cpu/UNCONNECTED1944
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED800
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED990
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED355
+- no physical wire
+NET: spimemio/UNCONNECTED2283
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED371
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED644
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED387
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED481
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED403
+- no physical wire
+NET: cpu/UNCONNECTED1453
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED419
+- no physical wire
+NET: cpu/UNCONNECTED1789
+- no physical wire
+NET: memory/UNCONNECTED2063
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED166
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED521
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED451
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1124
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED515
+- no physical wire
+NET: cpu/UNCONNECTED1773
+- no physical wire
+NET: cpu/UNCONNECTED1462
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED531
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED563
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED579
+- no physical wire
+NET: memory/UNCONNECTED2064
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1360
+- no physical wire
+NET: simpleuart/UNCONNECTED2164
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED595
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1153
+- no physical wire
+NET: memory/UNCONNECTED1990
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED627
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED115
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED643
+- no physical wire
+NET: cpu/UNCONNECTED1709
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED659
+- no physical wire
+NET: memory/UNCONNECTED2072
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED675
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED125
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED691
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED955
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED723
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED886
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1367
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED771
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED803
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED508
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED819
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED851
+- no physical wire
+NET: cpu/UNCONNECTED1748
+- no physical wire
+NET: memory/UNCONNECTED2031
+- no physical wire
+NET: cpu/UNCONNECTED1489
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED883
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED366
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED899
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED931
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED995
+- no physical wire
+NET: simpleuart/UNCONNECTED2132
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED309
+- no physical wire
+NET: cpu/UNCONNECTED1727
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1034
+- no physical wire
+NET: spimemio/UNCONNECTED2202
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED920
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1048
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1112
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1144
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1331
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1208
+- no physical wire
+NET: cpu/UNCONNECTED1636
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED988
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED328
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1224
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED617
+- no physical wire
+NET: cpu/UNCONNECTED1807
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1240
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED968
+- no physical wire
+NET: cpu/UNCONNECTED1487
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1276
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1340
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1105
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1356
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED414
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1372
+- no physical wire
+NET: cpu/UNCONNECTED1912
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1388
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1130
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED330
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1420
+- no physical wire
+NET: cpu/UNCONNECTED1457
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1409
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1436
+- no physical wire
+NET: cpu/UNCONNECTED1651
+- no physical wire
+NET: memory/UNCONNECTED2008
+- no physical wire
+NET: memory/UNCONNECTED2024
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED682
+- no physical wire
+NET: memory/UNCONNECTED1983
+- no physical wire
+NET: cpu/UNCONNECTED1967
+- no physical wire
+NET: cpu/UNCONNECTED1722
+- no physical wire
+NET: memory/UNCONNECTED2040
+- no physical wire
+NET: memory/UNCONNECTED2056
+- no physical wire
+NET: cpu/UNCONNECTED1517
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED121
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED860
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1120
+- no physical wire
+NET: simpleuart/UNCONNECTED2126
+- no physical wire
+NET: cpu/UNCONNECTED1775
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1076
+- no physical wire
+NET: simpleuart/UNCONNECTED2152
+- no physical wire
+NET: spimemio/UNCONNECTED2226
+- no physical wire
+NET: spimemio/UNCONNECTED2242
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED81
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED440
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED915
+- no physical wire
+NET: spimemio/UNCONNECTED2258
+- no physical wire
+NET: spimemio/UNCONNECTED2290
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED109
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2171
+- no physical wire
+NET: cpu/UNCONNECTED1448
+- no physical wire
+NET: cpu/UNCONNECTED1480
+- no physical wire
+NET: cpu/UNCONNECTED1512
+- no physical wire
+NET: memory/UNCONNECTED2085
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1001
+- no physical wire
+NET: cpu/UNCONNECTED1528
+- no physical wire
+NET: cpu/UNCONNECTED1544
+- no physical wire
+NET: cpu/UNCONNECTED1694
+- no physical wire
+NET: cpu/UNCONNECTED1560
+- no physical wire
+NET: cpu/UNCONNECTED1463
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1345
+- no physical wire
+NET: cpu/UNCONNECTED1592
+- no physical wire
+NET: cpu/UNCONNECTED1685
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED669
+- no physical wire
+NET: cpu/UNCONNECTED1608
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1133
+- no physical wire
+NET: cpu/UNCONNECTED1624
+- no physical wire
+NET: cpu/UNCONNECTED1647
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED292
+- no physical wire
+NET: cpu/UNCONNECTED1656
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED133
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1044
+- no physical wire
+NET: cpu/UNCONNECTED1688
+- no physical wire
+NET: cpu/UNCONNECTED1736
+- no physical wire
+NET: memory/UNCONNECTED1989
+- no physical wire
+NET: simpleuart/UNCONNECTED2144
+- no physical wire
+NET: cpu/UNCONNECTED1752
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED574
+- no physical wire
+NET: cpu/UNCONNECTED1768
+- no physical wire
+NET: simpleuart/UNCONNECTED2115
+- no physical wire
+NET: spimemio/UNCONNECTED2274
+- no physical wire
+NET: cpu/UNCONNECTED1816
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED867
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED620
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1165
+- no physical wire
+NET: cpu/UNCONNECTED1848
+- no physical wire
+NET: cpu/UNCONNECTED1864
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1039
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1260
+- no physical wire
+NET: cpu/UNCONNECTED1880
+- no physical wire
+NET: cpu/UNCONNECTED1896
+- no physical wire
+NET: cpu/UNCONNECTED1928
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED721
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED501
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1176
+- no physical wire
+NET: cpu/UNCONNECTED1960
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED53
+- no physical wire
+NET: spimemio/UNCONNECTED2251
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED101
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1280
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED753
+- no physical wire
+NET: cpu/UNCONNECTED1622
+- no physical wire
+NET: memory/UNCONNECTED1994
+- no physical wire
+NET: cpu/UNCONNECTED1482
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED117
+- no physical wire
+NET: simpleuart/UNCONNECTED2150
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED680
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED842
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED789
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED149
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED213
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED670
+- no physical wire
+NET: simpleuart/UNCONNECTED2142
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED229
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED245
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED277
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED293
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1289
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED910
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED389
+- no physical wire
+NET: memory/UNCONNECTED2110
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1094
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED453
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED469
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1250
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED485
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED597
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED613
+- no physical wire
+NET: cpu/UNCONNECTED1649
+- no physical wire
+NET: cpu/UNCONNECTED1769
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED113
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED629
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED60
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED107
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED645
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED709
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1235
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED460
+- no physical wire
+NET: spimemio/UNCONNECTED2225
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED787
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED773
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED837
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED971
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED853
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED540
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED885
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED901
+- no physical wire
+NET: memory/UNCONNECTED2023
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED218
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED933
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED981
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED880
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED997
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1313
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1098
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1114
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2183
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1146
+- no physical wire
+NET: memory/UNCONNECTED2006
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2187
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1178
+- no physical wire
+NET: spimemio/UNCONNECTED2246
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1278
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED242
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1310
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED961
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1326
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1358
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1406
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1422
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED866
+- no physical wire
+NET: cpu/UNCONNECTED1800
+- no physical wire
+NET: memory/UNCONNECTED2010
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1277
+- no physical wire
+NET: spimemio/UNCONNECTED2255
+- no physical wire
+NET: memory/UNCONNECTED2026
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED811
+- no physical wire
+NET: memory/UNCONNECTED2058
+- no physical wire
+NET: memory/UNCONNECTED2106
+- no physical wire
+NET: simpleuart/UNCONNECTED2112
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED739
+- no physical wire
+NET: spimemio/UNCONNECTED2212
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED49
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED504
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1296
+- no physical wire
+NET: spimemio/UNCONNECTED2260
+- no physical wire
+NET: spimemio/UNCONNECTED2276
+- no physical wire
+NET: cpu/UNCONNECTED1839
+- no physical wire
+NET: spimemio/UNCONNECTED2292
+- no physical wire
+NET: simpleuart/UNCONNECTED2163
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2173
+- no physical wire
+NET: UNCONNECTED2590
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1071
+- no physical wire
+NET: cpu/UNCONNECTED1958
+- no physical wire
+NET: cpu/UNCONNECTED1862
+- no physical wire
+NET: cpu/UNCONNECTED1451
+- no physical wire
+NET: cpu/UNCONNECTED1743
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1303
+- no physical wire
+NET: cpu/UNCONNECTED1467
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1251
+- no physical wire
+NET: cpu/UNCONNECTED1547
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED127
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1162
+- no physical wire
+NET: cpu/UNCONNECTED1579
+- no physical wire
+NET: cpu/UNCONNECTED1825
+- no physical wire
+NET: cpu/UNCONNECTED1595
+- no physical wire
+NET: cpu/UNCONNECTED1611
+- no physical wire
+NET: cpu/UNCONNECTED1675
+- no physical wire
+NET: cpu/UNCONNECTED1707
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED932
+- no physical wire
+NET: cpu/UNCONNECTED1787
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1430
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1202
+- no physical wire
+NET: cpu/UNCONNECTED1446
+- no physical wire
+NET: cpu/UNCONNECTED1803
+- no physical wire
+NET: cpu/UNCONNECTED1798
+- no physical wire
+NET: cpu/UNCONNECTED1851
+- no physical wire
+NET: cpu/UNCONNECTED1883
+- no physical wire
+NET: cpu/UNCONNECTED1899
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1055
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1249
+- no physical wire
+NET: cpu/UNCONNECTED1672
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED590
+- no physical wire
+NET: cpu/UNCONNECTED1931
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1212
+- no physical wire
+NET: cpu/UNCONNECTED1963
+- no physical wire
+NET: cpu/UNCONNECTED1569
+- no physical wire
+NET: cpu/UNCONNECTED1980
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1261
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED8
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1092
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED40
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED399
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1354
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED56
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED518
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1349
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED88
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED120
+- no physical wire
+NET: cpu/UNCONNECTED1793
+- no physical wire
+NET: spimemio/UNCONNECTED2233
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED425
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED136
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED522
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED168
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1135
+- no physical wire
+NET: cpu/UNCONNECTED1640
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED200
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED216
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED222
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED232
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED549
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED248
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED280
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED312
+- no physical wire
+NET: cpu/UNCONNECTED1701
+- no physical wire
+NET: cpu/UNCONNECTED1714
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED392
+- no physical wire
+NET: simpleuart/UNCONNECTED2131
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED408
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED456
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED449
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED472
+- no physical wire
+NET: memory/UNCONNECTED2105
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED520
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED536
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED616
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED696
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED712
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED728
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED776
+- no physical wire
+NET: cpu/UNCONNECTED1809
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED792
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED808
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED824
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED840
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED193
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1393
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED872
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1159
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED26
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED904
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED936
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED952
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED396
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1000
+- no physical wire
+NET: spimemio/UNCONNECTED2297
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1016
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED492
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1037
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1053
+- no physical wire
+NET: simpleuart/UNCONNECTED2137
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1085
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED192
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1062
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1101
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1117
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1281
+- no physical wire
+NET: memory/UNCONNECTED2049
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1100
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1297
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1361
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1025
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1377
+- no physical wire
+NET: cpu/UNCONNECTED1530
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1088
+- no physical wire
+NET: memory/UNCONNECTED2013
+- no physical wire
+NET: memory/UNCONNECTED2029
+- no physical wire
+NET: memory/UNCONNECTED2069
+- no physical wire
+NET: memory/UNCONNECTED2045
+- no physical wire
+NET: cpu/UNCONNECTED1781
+- no physical wire
+NET: memory/UNCONNECTED2093
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1087
+- no physical wire
+NET: spimemio/UNCONNECTED2199
+- no physical wire
+NET: spimemio/UNCONNECTED2247
+- no physical wire
+NET: spimemio/UNCONNECTED2263
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED949
+- no physical wire
+NET: spimemio/UNCONNECTED2279
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED750
+- no physical wire
+NET: spimemio/UNCONNECTED2295
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED956
+- no physical wire
+NET: cpu/UNCONNECTED1683
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2176
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED795
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2192
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1227
+- no physical wire
+NET: cpu/UNCONNECTED1755
+- no physical wire
+NET: cpu/UNCONNECTED1469
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED716
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED963
+- no physical wire
+NET: cpu/UNCONNECTED1485
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2177
+- no physical wire
+NET: cpu/UNCONNECTED1533
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1287
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED528
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1058
+- no physical wire
+NET: cpu/UNCONNECTED1597
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1023
+- no physical wire
+NET: cpu/UNCONNECTED1613
+- no physical wire
+NET: cpu/UNCONNECTED1703
+- no physical wire
+NET: cpu/UNCONNECTED1661
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED604
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED413
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1216
+- no physical wire
+NET: cpu/UNCONNECTED1677
+- no physical wire
+NET: cpu/UNCONNECTED1693
+- no physical wire
+NET: cpu/UNCONNECTED1725
+- no physical wire
+NET: cpu/UNCONNECTED1729
+- no physical wire
+NET: cpu/UNCONNECTED1821
+- no physical wire
+NET: cpu/UNCONNECTED1837
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1192
+- no physical wire
+NET: cpu/UNCONNECTED1869
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED28
+- no physical wire
+NET: cpu/UNCONNECTED1917
+- no physical wire
+NET: cpu/UNCONNECTED1933
+- no physical wire
+NET: cpu/UNCONNECTED1982
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED493
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED42
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED58
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED353
+- no physical wire
+NET: spimemio/UNCONNECTED2302
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1230
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED74
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED594
+- no physical wire
+NET: cpu/UNCONNECTED1666
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED106
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1327
+- no physical wire
+NET: spimemio/UNCONNECTED2203
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED122
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED138
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED186
+- no physical wire
+NET: memory/UNCONNECTED2109
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1075
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1428
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED234
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED282
+- no physical wire
+NET: cpu/UNCONNECTED1951
+- no physical wire
+NET: cpu/UNCONNECTED1523
+- no physical wire
+NET: cpu/UNCONNECTED1733
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED346
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED44
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED362
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED599
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED51
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED378
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED394
+- no physical wire
+NET: cpu/UNCONNECTED1699
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED410
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED890
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED628
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED474
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED490
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED506
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED917
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED602
+- no physical wire
+NET: memory/UNCONNECTED1987
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED296
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED618
+- no physical wire
+NET: cpu/UNCONNECTED1541
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED650
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED698
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED554
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED491
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED746
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED810
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED889
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED906
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED922
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED938
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED462
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED603
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED954
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED970
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED986
+- no physical wire
+NET: spimemio/UNCONNECTED2277
+- no physical wire
+NET: memory/UNCONNECTED2080
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1002
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1018
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED908
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1119
+- no physical wire
+NET: spimemio/UNCONNECTED2239
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1167
+- no physical wire
+NET: memory/UNCONNECTED2025
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1199
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1348
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1215
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1247
+- no physical wire
+NET: cpu/UNCONNECTED1872
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1263
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2184
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1299
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED83
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1347
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1363
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1209
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED236
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1379
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1197
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1395
+- no physical wire
+NET: cpu/UNCONNECTED1706
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1411
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED484
+- no physical wire
+NET: memory/UNCONNECTED2015
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1321
+- no physical wire
+NET: simpleuart/UNCONNECTED2117
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED565
+- no physical wire
+NET: simpleuart/UNCONNECTED2133
+- no physical wire
+NET: simpleuart/UNCONNECTED2165
+- no physical wire
+NET: spimemio/UNCONNECTED2201
+- no physical wire
+NET: spimemio/UNCONNECTED2217
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1285
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED942
+- no physical wire
+NET: spimemio/UNCONNECTED2281
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2178
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED241
+- no physical wire
+NET: spimemio/xfer/UNCONNECTED2194
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED367
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1246
+- no physical wire
+NET: cpu/UNCONNECTED1471
+- no physical wire
+NET: cpu/UNCONNECTED1652
+- no physical wire
+NET: cpu/UNCONNECTED1503
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED987
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1381
+- no physical wire
+NET: cpu/UNCONNECTED1567
+- no physical wire
+NET: cpu/UNCONNECTED1599
+- no physical wire
+NET: cpu/UNCONNECTED1711
+- no physical wire
+NET: cpu/UNCONNECTED1823
+- no physical wire
+NET: cpu/UNCONNECTED1855
+- no physical wire
+NET: simpleuart/UNCONNECTED2151
+- no physical wire
+NET: cpu/UNCONNECTED1871
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED46
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED686
+- no physical wire
+NET: cpu/UNCONNECTED1919
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED12
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED269
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED140
+- no physical wire
+NET: cpu/UNCONNECTED1726
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED156
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED204
+- no physical wire
+NET: cpu/UNCONNECTED1939
+- no physical wire
+NET: memory/UNCONNECTED2088
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED268
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED284
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED316
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED332
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1418
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1217
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1314
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED364
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED835
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED360
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED412
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED428
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED572
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED636
+- no physical wire
+NET: cpu/UNCONNECTED1885
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED741
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED652
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1065
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED668
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED327
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED700
+- no physical wire
+NET: cpu/UNCONNECTED1962
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED732
+- no physical wire
+NET: cpu/UNCONNECTED1505
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED581
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED764
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED417
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED796
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED215
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED828
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED876
+- no physical wire
+NET: simpleuart/UNCONNECTED2153
+- no physical wire
+NET: spimemio/UNCONNECTED2208
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED924
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1004
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED100
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1041
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED21
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1073
+- no physical wire
+NET: cpu/UNCONNECTED1754
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1089
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1121
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1265
+- no physical wire
+NET: simpleuart/UNCONNECTED2135
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1301
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1333
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1413
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED656
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1429
+- no physical wire
+NET: memory/UNCONNECTED1985
+- no physical wire
+NET: memory/UNCONNECTED2065
+- no physical wire
+NET: cpu/UNCONNECTED1665
+- no physical wire
+NET: simpleuart/UNCONNECTED2167
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED63
+- no physical wire
+NET: spimemio/UNCONNECTED2219
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED110
+- no physical wire
+NET: spimemio/UNCONNECTED2267
+- no physical wire
+NET: cpu/UNCONNECTED1473
+- no physical wire
+NET: cpu/UNCONNECTED1973
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED544
+- no physical wire
+NET: cpu/UNCONNECTED1554
+- no physical wire
+NET: cpu/UNCONNECTED1521
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1402
+- no physical wire
+NET: cpu/UNCONNECTED1585
+- no physical wire
+NET: cpu/UNCONNECTED1601
+- no physical wire
+NET: cpu/UNCONNECTED1633
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED208
+- no physical wire
+NET: cpu/UNCONNECTED1681
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED989
+- no physical wire
+NET: cpu/UNCONNECTED1697
+- no physical wire
+NET: cpu/UNCONNECTED1981
+- no physical wire
+NET: cpu/UNCONNECTED1761
+- no physical wire
+NET: cpu/UNCONNECTED1777
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED343
+- no physical wire
+NET: cpu/UNCONNECTED1841
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1164
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED894
+- no physical wire
+NET: cpu/UNCONNECTED1857
+- no physical wire
+NET: cpu/UNCONNECTED1735
+- no physical wire
+NET: spimemio/UNCONNECTED2262
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED62
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED78
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED126
+- no physical wire
+NET: cpu/UNCONNECTED1721
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED174
+- no physical wire
+NET: memory/UNCONNECTED2037
+- no physical wire
+NET: memory/UNCONNECTED1997
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED190
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED286
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED318
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED400
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED398
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED430
+- no physical wire
+NET: cpu/UNCONNECTED1663
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED446
+- no physical wire
+NET: simpleuart/UNCONNECTED2169
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED466
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED494
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED510
+- no physical wire
+NET: cpu/UNCONNECTED1497
+- no physical wire
+NET: cpu/UNCONNECTED1571
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED526
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED558
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED622
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED638
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED702
+- no physical wire
+NET: cpu/UNCONNECTED1539
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1019
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED734
+- no physical wire
+NET: cpu/UNCONNECTED1948
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED766
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED965
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1415
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED782
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1231
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED814
+- no physical wire
+NET: memory/UNCONNECTED2074
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED926
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED958
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED677
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED1022
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1027
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1370
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1043
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1059
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED325
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1107
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1123
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1139
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1155
+- no physical wire
+NET: cpu/UNCONNECTED1730
+- no physical wire
+NET: cpu/UNCONNECTED1846
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1267
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1319
+- no physical wire
+NET: cpu/UNCONNECTED1684
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1335
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED632
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1383
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1399
+- no physical wire
+NET: cpu/genblk2.pcpi_div/UNCONNECTED1431
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED150
+- no physical wire
+NET: memory/UNCONNECTED2019
+- no physical wire
+NET: memory/UNCONNECTED2035
+- no physical wire
+NET: spimemio/UNCONNECTED2214
+- no physical wire
+NET: memory/UNCONNECTED2051
+- no physical wire
+NET: memory/UNCONNECTED2086
+- no physical wire
+NET: memory/UNCONNECTED2099
+- no physical wire
+NET: cpu/UNCONNECTED1562
+- no physical wire
+NET: simpleuart/UNCONNECTED2121
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED344
+- no physical wire
+NET: spimemio/UNCONNECTED2221
+- no physical wire
+NET: spimemio/UNCONNECTED2237
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED437
+- no physical wire
+NET: spimemio/UNCONNECTED2285
+- no physical wire
+NET: spimemio/UNCONNECTED2301
+- no physical wire
+NET: cpu/UNCONNECTED1443
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED777
+- no physical wire
+NET: cpu/genblk1.pcpi_mul/UNCONNECTED1102
+- no physical wire
+NET: cpu/UNCONNECTED1459
+- no physical wire
+NET: cpu/UNCONNECTED1507
+- no physical wire
+NET: cpu/UNCONNECTED1515
+- no physical wire
+NET: cpu/UNCONNECTED1555
+- no physical wire
+NET: cpu/UNCONNECTED1935
+- no physical wire
+NET: cpu/UNCONNECTED1603
+- no physical wire
+NET: cpu/cpuregs/UNCONNECTED34
+- no physical wire
+NET: cpu/UNCONNECTED1619
+- no physical wire

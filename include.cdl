@@ -1,0 +1,8 @@
+.include "/pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_LP/cdl/sky130_scl_9T_LP.cdl"
+.include "/pdk/sky130_scl_9T_0.1.2/sky130_scl_9T/cdl/sky130_scl_9T.cdl"
+.include "/pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_tech/cdl/sky130_scl_9T_phyCells.cdl"
+.include "/pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_HS/cdl/sky130_scl_9T_HS.cdl"
+.include "/pnr_training/WORK_BATCH1/REFERENCE/FINAL_PROJECT/ram/sky130_sram_2kbyte/cdl/sky130_sram_2kbyte_1wr1r_32x512_8.cdl"
+.include "/pnr_training/WORK_BATCH1/REFERENCE/FINAL_PROJECT/ram/sky130_sram_4kbyte/cdl/sky130_sram_4kbyte_1wr1r_32x1024_8.cdl"
+
+

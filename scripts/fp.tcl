@@ -1,0 +1,20 @@
+restoreDesign DESIGN/init.inn.dat picosoc
+floorPlan -site CoreSite -s 1040.06 1248.06 10.12 10.12 10.12 10.12
+#setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+#addRing -nets {VDD VSS} -type core_rings -follow core -layer {top met5 bottom met5 left met4 right met4} -width {top 2 bottom 2 left 2 right 2} -spacing {top 1 bottom 1 left 1 right 1} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+#setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+#addStripe -nets {VDD VSS} -layer met4 -direction vertical -width 2 -spacing 1 -number_of_sets 10 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit met5 -padcore_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met5 -block_ring_bottom_layer_limit met1 -use_wire_group 0 -snap_wire_center_to_grid None
+#setSrouteMode -viaConnectToShape { noshape }
+#sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { met1(1) met5(5) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 0 -crossoverViaLayerRange { met1(1) met5(5) } -nets { VDD VSS } -allowLayerChange 0 -blockPin useLef -targetViaLayerRange { met1(1) met5(5) }
+source /pnr_training/WORK_BATCH1/saif_39/Project/picorv32/pnr/SCRIPTS/addring.tcl
+editPowerVia -skip_via_on_pin Standardcell -bottom_layer met1 -add_vias 1 -top_layer met5
+source /pnr_training/WORK_BATCH1/saif_39/Project/picorv32/pnr/SCRIPTS/editPin.tcl
+#editPin -fixOverlap 1 -unit TRACK -spreadDirection clockwise -side Right -layer 1 -spreadType center -spacing 2.0 -pin { DEBUG[0] DEBUG[1] DEBUG[2] DEBUG[3] LED[0] LED[1] LED[2] LED[3] LED[4] LED[5] LED[6] LED[7] LED[8] LED[9] LED[10] LED[11] LED[12] LED[13] LED[14] LED[15] LED[16] LED[17] LED[18] LED[19] LED[20] LED[21] LED[22] LED[23] LED[24] LED[25] LED[26] LED[27] LED[28] LED[29] LED[30] LED[31] OPORT[0] OPORT[1] OPORT[2] OPORT[3] OPORT[4] OPORT[5] OPORT[6] OPORT[7] OPORT[8] OPORT[9] OPORT[10] OPORT[11] OPORT[12] OPORT[13] OPORT[14] OPORT[15] OPORT[16] OPORT[17] OPORT[18] OPORT[19] OPORT[20] OPORT[21] OPORT[22] OPORT[23] OPORT[24] OPORT[25] OPORT[26] OPORT[27] OPORT[28] OPORT[29] OPORT[30] OPORT[31]}
+#editPin -fixOverlap 1 -unit TRACK -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 2.0 -pin { IPORT[0] IPORT[1] IPORT[2] IPORT[3] IPORT[4] IPORT[5] IPORT[6] IPORT[7] IPORT[8] IPORT[9] IPORT[10] IPORT[11] IPORT[12] IPORT[13] IPORT[14] IPORT[15] IPORT[16] IPORT[17] IPORT[18] IPORT[19] IPORT[20] IPORT[21] IPORT[22] IPORT[23] IPORT[24] IPORT[25] IPORT[26] IPORT[27] IPORT[28] IPORT[29] IPORT[30] IPORT[31]}
+#editPin -fixOverlap 1 -unit TRACK -spreadDirection clockwise -side Top -layer 1 -spreadType center -spacing 2.0 -pin { UART_TXD UART_RXD}
+#editPin -fixOverlap 1 -unit TRACK -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 2.0 -pin { XCLK XRES }
+checkPinAssignment
+legalizePin
+addWellTap -cell FILL2 -cellInterval 20 -checkerBoard
+saveDesign DESIGN/fp.inn 
+exit
