@@ -1,0 +1,6 @@
+set hdl " \
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/rtl/picosoc.v \
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/rtl/picosoc_openram_4bank.v \
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/rtl/simpleuart.v \
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/rtl/picorv32.v \
+/pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/rtl/spimemio.v "
