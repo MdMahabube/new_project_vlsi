@@ -1,0 +1,21 @@
+FILE /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/output/picosoc.gds
+PRIME picosoc
+SNAP 0
+PLACE_MIRROR 0
+PLACE_ANGLE 0
+PLACE_MAG 1.0
+PLACE_X 0.0
+PLACE_Y 0.0
+ENDPLACES
+
+FILE picosoc.fill_aref.gds.gz
+PRIME picosoc_FILL
+SNAP 0
+PLACE_MIRROR 0
+PLACE_ANGLE 0
+PLACE_MAG 1.0
+PLACE_X 0.0
+PLACE_Y 0.0
+ENDPLACES
+
+ENDFILES
