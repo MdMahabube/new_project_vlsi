@@ -1,0 +1,102 @@
+********************************************************************************
+*** Pegasus DRC SUMMARY
+***
+Execute on Date/Time    : Wed Aug 12 12:05:27 2026
+Pegasus VERSION         : 22.13-s008 Wed Dec 7 16:06:21 PST 2022
+Rule Deck Path          : /pdk/sky130_release_0.1.0/Sky130_FILLGEN/fillgen.v08.pvl
+Rule Deck Title         :
+Layout System           : GDSII
+Layout Path             : ../output/picosoc.gds
+Current Directory       : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/GDS_flow
+User Name               : pnr_trai
+Maximum Results         : unlimited
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/GDS_flow/fill.sum
+Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
+                          NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : picosoc
+ASCII DRC Error Report  :
+DRC Results Database    : /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/pnr/GDS_flow/picosoc.fill.gds.gz
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER diff_dg .............................. Total Original Geometry:        631 (    951786)
+LAYER tap_dg ............................... Total Original Geometry:        365 (    542948)
+LAYER nwell ................................ Total Original Geometry:        308 (    251910)
+LAYER hvi .................................. Total Original Geometry:          0 (         0)
+LAYER poly_dg .............................. Total Original Geometry:       4399 (   1945957)
+LAYER nsdm ................................. Total Original Geometry:        533 (    723932)
+LAYER psdm ................................. Total Original Geometry:        518 (    520360)
+LAYER licon ................................ Total Original Geometry:       8949 (   5341022)
+LAYER li1_dg ............................... Total Original Geometry:      16113 (   4137698)
+LAYER mcon ................................. Total Original Geometry:       3133 (   3528946)
+LAYER m1_dg ................................ Total Original Geometry:     136869 (   4493012)
+LAYER via1 ................................. Total Original Geometry:        122 (   1313558)
+LAYER m2_dg ................................ Total Original Geometry:     235923 (   3076646)
+LAYER via2 ................................. Total Original Geometry:         82 (     68082)
+LAYER m3_dg ................................ Total Original Geometry:      69971 (    196500)
+LAYER via3 ................................. Total Original Geometry:         88 (     40401)
+LAYER m4_dg ................................ Total Original Geometry:      20407 (     62179)
+LAYER via4 ................................. Total Original Geometry:          0 (         0)
+LAYER m5_dg ................................ Total Original Geometry:          0 (         0)
+LAYER capm ................................. Total Original Geometry:          0 (         0)
+LAYER cap2m ................................ Total Original Geometry:          0 (         0)
+LAYER vhvi ................................. Total Original Geometry:          0 (         0)
+LAYER uhvi ................................. Total Original Geometry:          0 (         0)
+LAYER SEALID ............................... Total Original Geometry:          0 (         0)
+LAYER areaid.ce ............................ Total Original Geometry:          4 (    102432)
+LAYER areaid.ft ............................ Total Original Geometry:          0 (         0)
+LAYER li_block ............................. Total Original Geometry:          0 (         0)
+LAYER m1_block ............................. Total Original Geometry:          0 (         0)
+LAYER m2_block ............................. Total Original Geometry:          0 (         0)
+LAYER m3_block ............................. Total Original Geometry:          0 (         0)
+LAYER m4_block ............................. Total Original Geometry:          8 (         8)
+LAYER m5_block ............................. Total Original Geometry:          0 (         0)
+LAYER diff_fill ............................ Total Original Geometry:          0 (         0)
+LAYER poly_fill ............................ Total Original Geometry:          0 (         0)
+LAYER li_fill .............................. Total Original Geometry:          0 (         0)
+LAYER m1_fill .............................. Total Original Geometry:          0 (         0)
+LAYER m2_fill .............................. Total Original Geometry:          0 (         0)
+LAYER m3_fill .............................. Total Original Geometry:          0 (         0)
+LAYER m4_fill .............................. Total Original Geometry:          0 (         0)
+LAYER m5_fill .............................. Total Original Geometry:          0 (         0)
+LAYER m1_fill_block ........................ Total Original Geometry:          0 (         0)
+LAYER m2_fill_block ........................ Total Original Geometry:          0 (         0)
+LAYER m3_fill_block ........................ Total Original Geometry:          0 (         0)
+LAYER m4_fill_block ........................ Total Original Geometry:          0 (         0)
+LAYER m5_fill_block ........................ Total Original Geometry:          0 (         0)
+LAYER diff_fill_block ...................... Total Original Geometry:          0 (         0)
+LAYER poly_fill_block ...................... Total Original Geometry:          0 (         0)
+LAYER li_fill_block ........................ Total Original Geometry:          0 (         0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK LI_fillgen ................................... Total Result     476755 (    476755)
+RULECHECK diff_fillgen ................................. Total Result      87063 (     87063)
+RULECHECK diff_poly_fillgen_10 ......................... Total Result       3367 (      3367)
+RULECHECK diff_poly_fillgen_25 ......................... Total Result       7581 (      7581)
+RULECHECK diff_poly_fillgen_3 .......................... Total Result       9749 (      9749)
+RULECHECK m1_fillgen ................................... Total Result    1116803 (   1116803)
+RULECHECK m2_fillgen ................................... Total Result     835008 (    835008)
+RULECHECK m3_fillgen ................................... Total Result     521105 (    521105)
+RULECHECK m4_fillgen ................................... Total Result     187879 (    187879)
+RULECHECK m5_fillgen ................................... Total Result      57851 (     57851)
+RULECHECK poly_fillgen ................................. Total Result       8578 (      8579)
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 15 + 95(s)
+Total Real Time (Init + Exec)     : 28(0 + 28)(s)
+Total Original Geometry           : 498423 (27297377)
+Total DRC RuleChecks              : 11
+Total DRC Results                 : 3311739 (3311740)
