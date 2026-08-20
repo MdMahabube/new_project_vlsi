@@ -1,0 +1,1348 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Wed Aug 12 02:30:45 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v22.18-s118_1 (64bit) 04/28/2025 11:32 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 22.18-s118_1 NR250220-2048/22_18-UB (database version 18.20.629) {superthreading v2.20}
+#@(#)CDS: AAE 22.18-s011 (64bit) 04/28/2025 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 22.18-s039_1 () Feb 18 2025 04:04:55 ( )
+#@(#)CDS: SYNTECH 22.18-s005_1 () Nov 27 2024 22:27:27 ( )
+#@(#)CDS: CPE v22.18-s071
+#@(#)CDS: IQuantus/TQuantus 21.2.2-s369 (64bit) Tue May 7 14:30:42 PDT 2024 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+set enc_check_rename_command_name 1
+set init_gnd_net VSS
+set init_pwr_net VDD
+set init_lef_file {/pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_tech/lef/sky130_scl_9T.tlef /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_tech/lef/sky130_scl_9T_phyCells.lef /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_HS/lef/sky130_scl_9T_HS.lef /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_LP/lef/sky130_scl_9T_LP.lef /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T/lef/sky130_scl_9T.lef /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/ram/sky130_sram_2kbyte/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/ram/sky130_sram_4kbyte/lef/sky130_sram_4kbyte_1rw1r_32x1024_8.lef }
+set init_verilog /pnr_training/WORK_BATCH1/saif_39/final_project/FINAL_PROJECT/syn/outputs/picosoc_opt.v
+set init_top_cell picosoc
+set init_mmmc_file viewDefinition.tcl
+init_design
+saveDesign DESIGN/init.inn
+setDrawView fplan
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CoreSite -s 1577.8 1577.8 10 10 10 10
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -s 1577.8 1577.8 10.12 10.12 10.12 10.12
+uiSetTool select
+getIoFlowFlag
+fit
+uiSetTool move
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+selectInst memory/u_sram_4k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 500.658 571.553 1202.798 1243.773
+panPage -1 0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 35.796 906.866 737.936 1579.086
+panPage 1 0
+panPage 1 0
+deselectAll
+selectInst memory/u_sram_4k_0
+panPage -1 0
+panPage -1 0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_0 70.36 134.632 772.5 806.852
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+deselectAll
+selectInst memory/u_sram_2k_1
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_1 833.974 30.483 1530.674 449.063
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+deselectAll
+selectInst memory/u_sram_2k_0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_0 824.488 495.347 1521.188 913.927
+panPage -1 0
+fit
+deselectAll
+selectInst memory/u_sram_4k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 935.038 777.313 1637.178 1449.533
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 86.601 909.408 788.741 1581.628
+deselectAll
+selectInst memory/u_sram_2k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_0 308.822 861.139 1005.522 1279.719
+deselectAll
+selectInst memory/u_sram_4k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 851.211 248.948 1553.351 921.168
+deselectAll
+selectInst memory/u_sram_2k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_1 775.55 1023.718 1472.25 1442.298
+deselectAll
+selectInst memory/u_sram_2k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_0 87.82 861.14 784.52 1279.72
+deselectAll
+selectInst memory/u_sram_4k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_0 822.27 -5.083 1524.41 667.137
+deselectAll
+selectInst memory/u_sram_4k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 38.334 55.892 740.474 728.112
+deselectAll
+selectInst memory/u_sram_2k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_0 824.488 668.082 1521.188 1086.662
+deselectAll
+selectInst memory/u_sram_2k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_1 1103.241 977.996 1799.941 1396.576
+deselectAll
+selectInst memory/u_sram_4k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_0 19.556 914.48 721.696 1586.7
+deselectAll
+selectInst memory/u_sram_4k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_1 874.073 15.246 1576.213 687.466
+deselectAll
+selectInst memory/u_sram_4k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_4k_0 14.474 15.236 716.614 687.456
+deselectAll
+selectInst memory/u_sram_2k_0
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_0 39.556 731.586 736.256 1150.166
+deselectAll
+selectInst memory/u_sram_2k_1
+getFPlanMode -autoSyncMasterClone -quiet
+setObjFPlanBox Instance memory/u_sram_2k_1 41.421 1160.892 738.121 1579.472
+deselectAll
+selectInst memory/u_sram_2k_0
+dbSet [dbGet top.insts.name -p memory/u_sram_2k_0].orient R180
+uiSetTool select
+deselectAll
+zoomBox -261.68000 -65.49800 2048.44200 2002.55400
+zoomBox -354.50000 -255.35700 2363.29100 2177.64600
+zoomBox -463.70000 -478.72100 2733.70200 2383.63600
+zoomBox -261.68100 -65.49900 2048.44200 2002.55400
+zoomBox -182.78400 95.88100 1780.82000 1853.72600
+selectInst memory/u_sram_2k_1
+deselectAll
+selectInst memory/u_sram_2k_1
+dbSet [dbGet top.insts.name -p memory/u_sram_2k_1].orient R180
+deselectAll
+selectInst memory/u_sram_4k_0
+dbSet [dbGet top.insts.name -p memory/u_sram_4k_0].orient R180
+deselectAll
+selectInst memory/u_sram_4k_1
+dbSet [dbGet top.insts.name -p memory/u_sram_4k_1].orient MX
+deselectAll
+selectInst memory/u_sram_2k_1
+getIoFlowFlag
+deselectAll
+selectInst memory/u_sram_2k_1
+move_obj -selected -direction up -to core_box -group
+move_obj -selected -direction left -to core_box -group
+deselectAll
+selectInst memory/u_sram_2k_0
+move_obj -selected -direction left -to core_box -group
+zoomBox -299.78400 -4.98200 1358.84200 2063.07100
+deselectAll
+selectInst memory/u_sram_4k_0
+move_obj -selected -direction down -to core_box -group
+move_obj -selected -direction left -to core_box -group
+deselectAll
+selectInst memory/u_sram_4k_1
+move_obj -selected -direction right -to core_box -group
+move_obj -selected -direction down -to core_box -group
+deselectAll
+selectInst memory/u_sram_2k_1
+move_obj -selected -direction up -to core_box -group
+move_obj -selected -direction left -to core_box -group
+deselectAll
+selectInst memory/u_sram_2k_0
+deselectAll
+selectInst memory/u_sram_2k_1
+selectInst memory/u_sram_2k_0
+spaceObject -fixSide middle -space 40
+deselectAll
+selectInst memory/u_sram_2k_1
+deselectAll
+selectInst memory/u_sram_2k_0
+deselectAll
+selectInst memory/u_sram_2k_1
+move_obj -selected -direction left -distance 0
+move_obj -selected -direction down -distance 0
+deselectAll
+selectInst memory/u_sram_2k_1
+move_obj -selected -direction left -to core_box -group
+move_obj -selected -direction down -to core_box -group
+move_obj -selected -direction up -to core_box -group
+move_obj -selected -direction left -to core_box -group
+deselectAll
+zoomBox -99.55300 1614.79400 369.64400 1399.62000
+zoomBox -16.70400 1593.43700 94.88900 1557.93100
+fit
+selectInst memory/u_sram_2k_0
+selectInst memory/u_sram_2k_1
+spaceObject -fixSide middle -space 40
+deselectAll
+selectInst memory/u_sram_2k_1
+move_obj -selected -direction left -to core_box -group
+move_obj -selected -direction up -to core_box -group
+deselectAll
+selectInst memory/u_sram_4k_0
+move_obj -selected -direction left -to core_box -group
+move_obj -selected -direction down -to core_box -group
+move_obj -selected -direction left -to core_box -group
+zoomBox -26.05800 1223.43600 116.47000 1112.58100
+fit
+deselectAll
+selectInst memory/u_sram_4k_1
+move_obj -selected -direction down -to core_box -group
+move_obj -selected -direction right -to core_box -group
+move_obj -selected -direction right -to core_box -group
+deselectAll
+selectInst memory/u_sram_4k_0
+move_obj -selected -direction down -to core_box -group
+move_obj -selected -direction left -to core_box -group
+move_obj -selected -direction left -to core_box -group
+move_obj -selected -direction left -to core_box -group
+deselectAll
+selectInst memory/u_sram_2k_0
+move_obj -selected -direction left -to core_box -group
+deselectAll
+setLayerPreference pinObj -isVisible 1
+zoomBox 8.78200 1603.51100 68.96000 1517.99400
+zoomBox 10.50900 1593.87200 35.22500 1572.86300
+fit
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top met4 bottom met4 left met4 right met4} -width {top 2 bottom 2 left 2 right 2} -spacing {top 2 bottom 2 left 2 right 2} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top met4 bottom met4 left met4 right met4} -width {top 2 bottom 2 left 2 right 2} -spacing {top 2 bottom 2 left 2 right 2} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+zoomBox 566.22400 1657.35500 749.92700 1543.33200
+zoomBox 647.98000 1613.91400 716.82700 1543.74300
+fit
+selectInst memory/u_sram_2k_1
+viewLast
+fit
+deselectAll
+selectInst memory/u_sram_2k_1
+dbSet [dbGet top.insts.name -p memory/u_sram_2k_1].orient MY
+zoomBox 97.46600 -59.31500 49.95700 108.55100
+zoomBox 56.85200 27.04400 129.14100 -18.31900
+zoomBox 22.14400 -68.01800 160.62800 104.65000
+zoomBox -23.48000 -103.92300 202.01900 177.24000
+zoomBox -44.34500 -120.34300 220.94800 210.43700
+zoomBox 33.03500 -59.44900 150.74700 87.32000
+zoomBox 67.36800 -32.43100 119.59900 32.69300
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage 1 0
+fit
+addHaloToBlock {2 2 2 2} -allBlock
+addHaloToBlock {2 2 2 2} -allBlock
+zoomBox 21.45100 76.87900 116.47000 -138.49700
+zoomBox 33.32400 26.14700 63.82500 -26.76300
+zoomBox -3.58300 -72.60300 108.93600 67.69100
+zoomBox -68.65500 -161.56800 184.93600 154.62100
+zoomBox -221.61000 -351.75900 349.92000 360.85100
+zoomBox -327.21500 -483.07200 463.83000 503.24000
+zoomBox -473.38100 -664.82100 621.49100 700.31700
+fit
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate start}
+zoomBox -41.89500 1245.60700 65.79300 1071.40700
+uiSetTool select
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate stop}
+fit
+zoomBox -35.56000 786.35100 37.28800 672.32800
+uiSetTool select
+fit
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer met3 -direction horizontal -width 2 -spacing 2 -number_of_sets 2 -start_from bottom -start 1153.724 -stop 700.669 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit met5 -padcore_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met5 -block_ring_bottom_layer_limit met1 -use_wire_group 0 -snap_wire_center_to_grid None
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate start}
+zoomBox 1456.23200 48.37300 1554.41800 -33.97600
+uiSetTool select
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate start}
+zoomBox 1394.29200 -145.75300 1654.63000 178.84900
+zoomBox 1356.09600 -202.32600 1716.42700 246.95200
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+uiSetTool select
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer met2 -direction vertical -width 2 -spacing 2 -number_of_sets 2 -start_from left -start 803.915 -stop 700.669 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit met5 -padcore_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met5 -block_ring_bottom_layer_limit met1 -use_wire_group 0 -snap_wire_center_to_grid None
+fit
+zoomBox 144.97500 1296.28400 436.36600 998.55900
+zoomBox 233.18000 1185.74800 362.86200 1118.01900
+fit
+undo
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate start}
+zoomBox 43.62200 51.54000 173.48100 -109.99100
+panPage 1 0
+panPage -1 0
+panPage -1 0
+zoomBox -48.26400 -170.75700 163.19200 92.89600
+panPage 1 0
+panPage -1 0
+uiSetTool select
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate stop}
+fit
+zoomBox 759.42900 102.21700 860.78200 -94.15500
+uiSetTool select
+fit
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer met2 -direction vertical -width 2 -spacing 2 -number_of_sets 2 -start_from left -start 63.751 -stop 800.031 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit met5 -padcore_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met5 -block_ring_bottom_layer_limit met1 -use_wire_group 0 -snap_wire_center_to_grid None
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate start}
+zoomBox 1440.39600 70.54400 1503.74100 1619.34700
+zoomBox 1439.61500 1601.44200 1468.71100 1552.20200
+uiSetTool select
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate start}
+uiSetTool select
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer met2 -direction vertical -width 2 -spacing 2 -number_of_sets 1 -start_from left -start 1459.749 -stop 800.031 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit met5 -padcore_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met5 -block_ring_bottom_layer_limit met1 -use_wire_group 0 -snap_wire_center_to_grid None
+fit
+undo
+::uiSetTool getLocation {::PPAddStripes::setPointCoordinate stop}
+zoomBox 1440.39600 32.53700 1548.08300 -81.48600
+uiSetTool select
+fit
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer met5 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer met2 -direction vertical -width 2 -spacing 2 -number_of_sets 1 -start_from left -start 1459.749 -stop 1475.127 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit met5 -padcore_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met5 -block_ring_bottom_layer_limit met1 -use_wire_group 0 -snap_wire_center_to_grid None
+zoomBox 749.92700 1217.10200 911.45900 1058.73700
+zoomBox 785.14400 1140.53900 808.13700 1115.21700
+deselectAll
+selectWire 794.0350 6.3200 796.0350 1591.7200 2 VDD
+deleteSelectedFromFPlan
+undo
+fit
+zoomBox 1396.05400 1628.84900 1513.24300 1556.00100
+fit
+zoomBox 1411.89000 67.37700 1510.07600 -27.64200
+zoomBox 1454.34900 20.22100 1476.81700 -7.90800
+fit
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+globalNetConnect VDD -instanceBasename * -pin VDD -verbose
+globalNetConnect VSS -instanceBasename * -pin VSS -verbose
+globalNetConnect VSS -instanceBasename * -pin vssd1 -verbose
+globalNetConnect VDD -instanceBasename * -pin vccd1 -verbose
+zoomBox 1421.39200 735.67400 1484.73800 688.16500
+zoomBox 1458.03000 689.66300 1469.33000 677.56400
+fit
+setLayerPreference node_cell -isVisible 1
+zoomBox 1399.22100 748.34300 1481.57000 646.99000
+setLayerPreference blockHalo -isVisible 0
+zoomBox 1456.04900 689.50600 1467.47400 678.82300
+fit
+zoomBox 1462.56700 54.70800 1548.08300 -119.49300
+zoomBox 1487.07400 19.46500 1538.17600 -15.77800
+fit
+zoomBox 1415.05700 57.87500 1529.08000 -11.80500
+zoomBox 1449.77800 20.36400 1471.34900 -15.38400
+zoomBox 1457.90300 13.90700 1468.85500 -1.17800
+fit
+zoomBox 62.62600 1258.27600 138.64100 1065.07200
+zoomBox 56.93900 1184.28900 90.16300 1113.65200
+selectWire 67.7550 1136.3250 69.7550 1167.5600 2 VSS
+zoomBox 62.98500 1178.06200 77.48000 1162.44500
+uiSetTool stretchWire
+getExtractRCMode -relative_c_th -quiet
+getExtractRCMode -coupling_c_th -quiet
+getExtractRCMode -total_c_th -quiet
+getDesignMode -pessimisticMode -quiet
+getExtractRCMode -lefTechFileMap -quiet
+getExtractRCMode -turboReduce -quiet
+getExtractRCMode -coupled -quiet
+editResize -direction y -offset 1.91 -side high -keep_center_line auto
+zoomBox 67.11200 1170.38400 70.21900 1168.94800
+fit
+zoomBox 43.62200 1213.93400 148.14300 1023.89700
+zoomBox 60.31900 1148.84900 81.46400 1124.40800
+editResize -direction y -offset -2.1 -side low -keep_center_line auto
+deselectAll
+selectWire 63.7550 1136.3250 65.7550 1167.5600 2 VDD
+editResize -direction y -offset -2.44 -side low -keep_center_line auto
+zoomBox 64.05300 1134.26700 64.73800 1133.88600
+editResize -direction y -offset -0.29 -side low -keep_center_line auto
+zoomBox 63.78600 1133.06200 65.10100 1134.70100
+zoomBox 63.67400 1132.88000 65.22100 1134.80900
+zoomBox 63.54200 1132.66700 65.36200 1134.93600
+zoomBox 63.21100 1132.12100 65.73000 1135.26200
+selectWire 63.7550 1134.2050 65.7550 1167.5600 2 VDD
+editResize -direction y -offset -0.13 -side low -keep_center_line auto
+editResize -direction y -offset -0.165 -side low -keep_center_line auto
+editResize -direction y -offset -0.09 -side low -keep_center_line auto
+editResize -direction y -offset -0.18 -side low -keep_center_line auto
+zoomBox 62.69900 1131.68700 66.18500 1136.03400
+zoomBox 62.37200 1131.41100 66.47400 1136.52500
+fit
+zoomBox 24.61800 1147.42100 91.13100 1118.91600
+zoomBox 59.01300 1131.37100 68.60000 1125.85800
+editResize -direction y -offset -3.335 -side low -keep_center_line auto
+panPage 0 1
+panPage 0 1
+zoomBox 58.06200 1128.41000 69.34100 1142.47300
+zoomBox 55.62600 1124.82700 71.23700 1144.29200
+zoomBox 54.07700 1122.54900 72.44300 1145.44900
+zoomBox 44.04000 1110.19000 79.22500 1154.06000
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+zoomBox 62.93200 1168.18400 66.86300 1166.60000
+panPage 0 1
+editResize -direction y -offset 2.12 -side high -keep_center_line auto
+editResize -direction y -offset 0.105 -side high -keep_center_line auto
+selectWire 63.7550 1129.4050 65.7550 1169.6800 2 VDD
+editResize -direction y -offset 0.275 -side high -keep_center_line auto
+selectWire 63.7550 1129.4050 65.7550 1169.6800 2 VDD
+zoomBox 64.89400 1169.87400 65.15600 1169.63300
+editResize -direction y -offset 0.105 -side high -keep_center_line auto
+selectWire 63.7550 1129.4050 65.7550 1169.6800 2 VDD
+editResize -direction y -offset 0.185 -side high -keep_center_line auto
+selectWire 63.7550 1129.4050 65.7550 1169.6800 2 VDD
+zoomBox 64.75100 1169.51600 65.25600 1170.14600
+zoomBox 64.47900 1169.37900 65.44700 1170.58600
+panPage 0 -1
+zoomBox 64.41200 1168.92100 65.55100 1170.34100
+panPage 0 1
+editResize -direction y -offset 0.945 -side high -keep_center_line auto
+panPage 0 -1
+selectWire 63.7550 1129.4050 65.7550 1169.6800 2 VDD
+setEditMode -status ROUTED -nets VDD -layer_vertical met2 -width_horizontal 2.000 -width_vertical 2.000 -shape STRIPE
+uiSetTool move
+zoomBox 64.31600 1168.72500 65.65600 1170.39600
+zoomBox 64.20200 1168.49200 65.77900 1170.45800
+panPage 0 1
+editResize -direction y -offset 0.925 -side high -no_conn 1 -keep_center_line 0
+panPage -1 0
+uiSetTool stretchWire
+zoomBox 63.59100 1168.78300 65.44600 1171.09600
+panPage 0 1
+panPage 0 1
+zoomBox 63.41100 1169.81300 65.59400 1172.53500
+zoomBox 63.19800 1169.39200 65.76700 1172.59500
+panPage 0 1
+panPage 0 1
+panPage 0 1
+editResize -direction y -offset 3.075 -side high -keep_center_line auto
+zoomBox 61.56000 1170.51100 67.35000 1177.73000
+zoomBox 56.69900 1165.26900 72.05500 1184.41500
+zoomBox 43.81300 1151.37600 84.53000 1202.14400
+fit
+setLayerPreference cellBlkgObj -isVisible 0
+zoomBox 30.95300 1274.11300 94.29900 1090.41000
+zoomBox 58.24600 1179.07600 87.44700 1157.57300
+fit
+zoomBox -7.05400 1638.35100 217.82300 1486.32100
+zoomBox 52.10300 1610.95700 89.78500 1568.81800
+zoomBox 66.83600 1591.99200 71.18200 1588.25800
+deselectAll
+selectWire 67.7550 1589.7000 69.7550 1595.7200 2 VSS
+panPage 0 -1
+editResize -direction y -offset -2.235 -side low -keep_center_line auto
+panPage -1 0
+panPage -1 0
+panPage -1 0
+deselectAll
+selectWire 63.7550 1589.7000 65.7550 1591.7200 2 VDD
+editResize -direction y -offset -2.12 -side low -keep_center_line auto
+editResize -direction y -offset -0.11 -side low -keep_center_line auto
+editResize -direction y -offset -0.4 -side low -keep_center_line auto
+panPage 0 -1
+panPage 0 -1
+editResize -direction y -offset -3.805 -side low -keep_center_line auto
+zoomBox 61.17400 1581.87000 69.50100 1592.25200
+zoomBox 55.12800 1579.56400 77.20700 1607.09300
+panPage 0 -1
+zoomBox 48.17900 1569.30500 84.13200 1614.13300
+zoomBox 45.00100 1568.39000 87.29900 1621.12900
+fit
+deselectAll
+zoomBox 34.12000 754.67800 138.64100 618.48500
+zoomBox 54.39800 722.20400 81.36100 686.18800
+selectWire 67.7550 684.1200 69.7550 714.1850 2 VSS
+editResize -direction y -offset 2.655 -side high -keep_center_line auto
+panPage 0 -1
+panPage 0 -1
+zoomBox 67.38500 685.03200 70.71600 682.95000
+editResize -direction y -offset -2.09 -side low -keep_center_line auto
+zoomBox 65.64600 681.76100 73.15500 691.12400
+zoomBox 64.44500 681.65700 74.83800 694.61600
+panPage -1 0
+zoomBox 59.01100 679.85600 78.92200 704.68200
+zoomBox 52.93600 675.13100 97.81300 731.08600
+zoomBox 34.10700 661.10700 153.09900 809.47200
+zoomBox -15.81900 623.92700 299.68700 1017.31500
+panPage 0 -1
+zoomBox -148.19600 212.43300 688.36100 1255.49100
+panPage 0 -1
+zoomBox 35.69600 739.08700 106.53900 650.15600
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 1
+panPage 0 1
+zoomBox 63.85600 12.01900 72.46700 3.40900
+deselectAll
+selectWire 67.7550 2.3200 69.7550 8.3400 2 VSS
+editResize -direction y -offset 1.945 -side high -keep_center_line auto
+panPage -1 0
+panPage 0 1
+panPage 0 -1
+deselectAll
+selectWire 63.7550 6.3200 65.7550 8.3400 2 VDD
+panPage 0 1
+editResize -direction y -offset 2.235 -side high -keep_center_line auto
+editResize -direction y -offset 0.11 -side high -keep_center_line auto
+editResize -direction y -offset 1.735 -side high -keep_center_line auto
+editResize -direction y -offset 1.585 -side high -keep_center_line auto
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 56.17500 14.82400 75.58300 39.02300
+zoomBox 49.91300 9.17700 81.51500 48.58000
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 40.21700 38.45000 91.67600 102.61100
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 31.06400 127.85200 102.28800 216.65700
+panPage 0 1
+zoomBox 10.34000 139.01000 126.31800 283.61700
+panPage 0 1
+zoomBox -10.28800 166.98100 150.23600 367.13000
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox -62.62900 313.85800 198.75900 639.76900
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 50.87500 726.80300 79.60400 678.76400
+deselectAll
+selectWire 63.7550 684.1200 65.7550 714.1850 2 VDD
+editResize -direction y -offset 7.55 -side high -keep_center_line auto
+editResize -direction y -offset 2.12 -side high -keep_center_line auto
+selectWire 63.7550 684.1200 65.7550 716.3050 2 VDD
+zoomBox 64.58000 719.16700 65.20400 717.43100
+panPage 0 1
+editResize -direction y -offset 3.21 -side high -keep_center_line auto
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+selectWire 63.7550 684.1200 65.7550 716.3050 2 VDD
+editResize -direction y -offset 0.27 -side high -keep_center_line auto
+selectWire 63.7550 684.1200 65.7550 716.3050 2 VDD
+uiSetTool move
+zoomBox 64.08200 715.12400 65.72000 717.16600
+zoomBox 63.94800 714.86100 65.87500 717.26400
+panPage 0 1
+editResize -direction y -offset 1.506 -side high -no_conn 1 -keep_center_line 0
+panPage 0 1
+panPage 0 1
+panPage -1 0
+uiSetTool stretchWire
+panPage 0 1
+zoomBox 63.14600 717.63000 65.41300 720.45700
+editResize -direction y -offset 1.85 -side high -keep_center_line auto
+zoomBox 63.57500 718.19300 65.21300 720.23500
+zoomBox 64.19600 719.00800 64.92400 719.91600
+zoomBox 64.47200 719.36900 64.79600 719.77300
+zoomBox 64.43300 719.31800 64.81400 719.79300
+zoomBox 64.19300 719.00500 64.92500 719.91800
+zoomBox 63.12500 717.69400 65.41200 720.54500
+zoomBox 61.08200 715.99800 66.23700 722.42600
+zoomBox 55.00400 711.04200 68.67600 728.08900
+zoomBox 46.07100 703.75500 72.26300 736.41300
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+zoomBox 62.11700 686.22900 67.30800 683.11400
+panPage 0 -1
+editResize -direction y -offset -2.12 -side low -keep_center_line auto
+editResize -direction y -offset -0.22 -side low -keep_center_line auto
+selectWire 63.7550 682.0000 65.7550 721.1050 2 VDD
+uiSetTool move
+panPage 0 -1
+editResize -direction y -offset -2.279 -side low -no_conn 1 -keep_center_line 0
+uiSetTool stretchWire
+panPage 0 -1
+editResize -direction y -offset -1.805 -side low -keep_center_line auto
+zoomBox 58.66800 672.71200 70.36800 687.30000
+zoomBox 48.43100 664.11200 79.45400 702.79300
+zoomBox 21.29000 641.31000 103.54800 743.87300
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox -18.61200 730.86300 138.96900 927.34200
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 58.33300 1148.41100 69.40600 1125.69600
+zoomBox 41.91800 1119.43900 82.97900 1170.63600
+zoomBox 3.79400 1100.86400 112.66900 1236.61400
+zoomBox -126.21800 1037.66700 213.40600 1461.12600
+zoomBox -442.53500 884.05500 457.96900 2006.84600
+panPage 0 1
+zoomBox 29.62100 1631.39200 125.35100 1566.49100
+fit
+zoomBox 1386.55200 73.71100 1494.23900 -147.99900
+zoomBox 1453.05100 21.80800 1471.63300 -11.83300
+deselectAll
+selectWire 1463.7500 2.3200 1465.7500 8.3400 2 VSS
+editResize -direction y -offset 1.895 -side high -keep_center_line auto
+deselectAll
+selectWire 1459.7500 6.3200 1461.7500 8.3400 2 VDD
+editResize -direction y -offset 2.12 -side high -keep_center_line auto
+zoomBox 1460.61600 10.91800 1460.90700 9.89800
+editResize -direction y -offset 0.265 -side high -keep_center_line auto
+selectWire 1459.7500 6.3200 1461.7500 10.4600 2 VDD
+editResize -direction y -offset 0.15 -side high -keep_center_line auto
+selectWire 1459.7500 6.3200 1461.7500 10.4600 2 VDD
+editResize -direction y -offset 0.13 -side high -keep_center_line auto
+editResize -direction y -offset 0.1 -side high -keep_center_line auto
+editResize -direction y -offset 0.11 -side high -keep_center_line auto
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 1460.20000 12.66500 1461.33200 14.07600
+zoomBox 1459.98900 12.25900 1461.55600 14.21300
+zoomBox 1459.50900 11.33800 1462.06300 14.52200
+zoomBox 1458.73100 9.83900 1462.89000 15.02500
+editResize -direction y -offset 3.52 -side high -keep_center_line auto
+zoomBox 1456.76700 5.99300 1464.73500 15.92800
+zoomBox 1451.59900 -3.98200 1469.56000 18.41300
+zoomBox 1439.95300 -26.46100 1480.43400 24.01200
+zoomBox 1420.78300 -63.46400 1498.33300 33.22900
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 1384.06000 -17.93400 1532.62400 167.30300
+panPage 0 1
+zoomBox 1313.71100 -97.42200 1598.31500 257.43600
+zoomBox 1287.73800 -147.28400 1622.56700 270.19600
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 1434.94200 707.58500 1471.74300 664.75100
+deselectAll
+selectWire 1463.7500 684.1200 1465.7500 1595.7200 2 VSS
+editResize -direction y -offset -2.13 -side low -keep_center_line auto
+zoomBox 1458.68000 685.04000 1462.32700 681.26100
+deselectAll
+selectWire 1459.7500 684.1200 1461.7500 1591.7200 2 VDD
+editResize -direction y -offset -2.12 -side low -keep_center_line auto
+editResize -direction y -offset 0 -side low -keep_center_line auto
+uiSetTool move
+panPage 0 -1
+panPage 0 -1
+editResize -direction y -offset -2.419 -side low -no_conn 1 -keep_center_line 0
+uiSetTool stretchWire
+panPage 0 -1
+editResize -direction y -offset -1.275 -side low -keep_center_line auto
+fit
+deselectAll
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+fit
+uiSetTool obstruct
+zoomBox -29.22500 1226.60400 746.76000 1125.25000
+zoomBox -5.45600 1175.92700 39.28500 1132.58300
+zoomBox -36.23900 1101.92700 49.47200 1208.79600
+panPage 1 0
+panPage 1 0
+panPage 1 0
+zoomBox -24.01100 1055.11800 140.18600 1259.84600
+zoomBox -149.17000 965.44700 165.37900 1357.64200
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+zoomBox 701.24800 1142.27500 715.98400 1129.23900
+createPlaceBlockage -box 10.26400 1134.08400 707.01000 1169.00700 -type hard
+zoomBox 695.79400 1119.83400 724.02600 1155.03500
+zoomBox 681.06900 1102.36500 744.69900 1181.70200
+zoomBox 647.86400 1062.97900 791.27100 1241.78500
+panPage -1 0
+panPage -1 0
+panPage 0 -1
+zoomBox 499.11700 953.25900 773.84200 1295.79900
+zoomBox 333.05500 806.17500 952.21700 1578.17500
+panPage 0 -1
+panPage 0 -1
+panPage -1 0
+panPage -1 0
+panPage -1 0
+zoomBox -3.30200 724.51200 27.93500 673.19500
+zoomBox -49.35800 636.65400 43.40200 752.31200
+zoomBox -118.22800 577.12100 59.47100 798.68400
+panPage 1 0
+zoomBox -245.96200 423.77500 154.52800 923.12500
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+zoomBox 706.19400 689.32500 711.24500 663.34800
+createPlaceBlockage -box 10.27700 681.59200 712.34200 716.57700 -type hard
+zoomBox 680.69700 640.47200 727.65500 699.02100
+zoomBox 641.02200 588.91600 746.85500 720.87400
+zoomBox 575.71500 504.05300 778.46000 756.84500
+zoomBox 404.42400 281.46500 861.35800 851.19200
+fit
+fit
+zoomBox 698.68000 750.75500 909.52000 605.96200
+zoomBox 750.67800 601.69600 903.01000 738.06600
+zoomBox 770.98500 608.61300 900.46800 724.52800
+zoomBox 665.60800 572.71900 913.66000 794.77800
+zoomBox 626.70400 559.46700 918.53000 820.71400
+zoomBox 301.53000 448.70800 959.23700 1037.49600
+zoomBox -433.46300 199.08700 1048.84400 1526.06800
+zoomBox -1269.66000 -82.86000 1144.03100 2077.90900
+zoomBox 853.63900 76.38700 912.96600 -23.53300
+createPlaceBlockage -box 710.68100 10.25500 886.40600 681.63200 -type hard
+zoomBox 773.81200 -60.95200 987.63500 130.46500
+zoomBox 628.84500 -160.48700 1110.75100 270.92200
+zoomBox 306.03700 -386.37600 1392.13300 585.91200
+fit
+::uiSetTool getLocation Rda_PE::Attr:getStartCoord
+zoomBox 851.09400 1622.05700 998.42800 1568.71200
+zoomBox 808.69800 1479.13700 1048.60700 1693.90700
+zoomBox 673.67300 1320.76700 1214.36900 1804.80500
+zoomBox 272.82900 850.61300 1706.47000 2134.02800
+zoomBox 860.75200 1596.18100 949.77500 1547.96000
+uiSetTool obstruct
+::uiSetTool getLocation Rda_PE::Attr:getEndCoord
+panPage 1 0
+panPage 1 0
+panPage 1 0
+zoomBox 899.11800 1492.49500 1044.07800 1622.26500
+zoomBox 763.45600 1363.41500 1090.16100 1655.88600
+panPage 1 0
+uiSetTool obstruct
+::uiSetTool getLocation Rda_PE::Attr:getEndCoord
+zoomBox 1062.22500 1597.13800 1074.48200 1591.22100
+uiSetTool obstruct
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 887.816 1597.292 -end 1069.662 1597.811 -pin {clk flash_io0_di flash_io1_di flash_io2_di flash_io3_di {iomem_rdata[0]} {iomem_rdata[1]} {iomem_rdata[2]} {iomem_rdata[3]} {iomem_rdata[4]} {iomem_rdata[5]} {iomem_rdata[6]} {iomem_rdata[7]} {iomem_rdata[8]} {iomem_rdata[9]} {iomem_rdata[10]} {iomem_rdata[11]} {iomem_rdata[12]} {iomem_rdata[13]} {iomem_rdata[14]} {iomem_rdata[15]} {iomem_rdata[16]} {iomem_rdata[17]} {iomem_rdata[18]} {iomem_rdata[19]} {iomem_rdata[20]} {iomem_rdata[21]} {iomem_rdata[22]} {iomem_rdata[23]} {iomem_rdata[24]} {iomem_rdata[25]} {iomem_rdata[26]} {iomem_rdata[27]} {iomem_rdata[28]} {iomem_rdata[29]} {iomem_rdata[30]} {iomem_rdata[31]} iomem_ready irq_5 irq_6 irq_7 resetn ser_rx}
+setPinAssignMode -pinEditInBatch false
+zoomBox 1045.01600 1572.22400 1083.25300 1606.45400
+zoomBox 991.34000 1520.85400 1110.61400 1627.63000
+panPage -1 0
+zoomBox 802.83900 1368.13500 1174.90200 1701.21100
+zoomBox 431.62300 996.91900 1418.13800 1880.06100
+zoomBox -63.87000 435.98400 1825.98500 2127.80800
+zoomBox 879.83500 1677.95900 984.96300 1565.49700
+zoomBox 826.18500 1512.72300 1109.31600 1766.18600
+zoomBox 886.25400 1607.58800 892.84700 1591.47200
+uiSetTool ruler
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -pinWidth 0.14 -pinDepth 0.485 -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 888.26 1598.04 -end 960.0 1598.04 -pin {clk flash_io0_di flash_io1_di flash_io2_di flash_io3_di {iomem_rdata[0]} {iomem_rdata[1]} {iomem_rdata[2]} {iomem_rdata[3]} {iomem_rdata[4]} {iomem_rdata[5]} {iomem_rdata[6]} {iomem_rdata[7]} {iomem_rdata[8]} {iomem_rdata[9]} {iomem_rdata[10]} {iomem_rdata[11]} {iomem_rdata[12]} {iomem_rdata[13]} {iomem_rdata[14]} {iomem_rdata[15]} {iomem_rdata[16]} {iomem_rdata[17]} {iomem_rdata[18]} {iomem_rdata[19]} {iomem_rdata[20]} {iomem_rdata[21]} {iomem_rdata[22]} {iomem_rdata[23]} {iomem_rdata[24]} {iomem_rdata[25]} {iomem_rdata[26]} {iomem_rdata[27]} {iomem_rdata[28]} {iomem_rdata[29]} {iomem_rdata[30]} {iomem_rdata[31]} iomem_ready irq_5 irq_6 irq_7 resetn ser_rx}
+setPinAssignMode -pinEditInBatch false
+zoomBox 887.14000 1599.25100 890.70300 1597.22400
+zoomBox 883.81900 1594.76100 893.26800 1603.22000
+zoomBox 877.13600 1590.97500 898.43300 1610.04000
+zoomBox 862.07400 1582.44100 910.07500 1625.41200
+zoomBox 828.12700 1563.05300 936.31200 1659.90200
+zoomBox 751.62100 1519.36000 995.44500 1737.63500
+zoomBox 881.89100 1608.94100 902.70900 1591.90800
+fit
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -pinWidth 0.14 -pinDepth 0.485 -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 888.26 1598.04 -end 990.0 1598.04 -pin {clk flash_io0_di flash_io1_di flash_io2_di flash_io3_di {iomem_rdata[0]} {iomem_rdata[1]} {iomem_rdata[2]} {iomem_rdata[3]} {iomem_rdata[4]} {iomem_rdata[5]} {iomem_rdata[6]} {iomem_rdata[7]} {iomem_rdata[8]} {iomem_rdata[9]} {iomem_rdata[10]} {iomem_rdata[11]} {iomem_rdata[12]} {iomem_rdata[13]} {iomem_rdata[14]} {iomem_rdata[15]} {iomem_rdata[16]} {iomem_rdata[17]} {iomem_rdata[18]} {iomem_rdata[19]} {iomem_rdata[20]} {iomem_rdata[21]} {iomem_rdata[22]} {iomem_rdata[23]} {iomem_rdata[24]} {iomem_rdata[25]} {iomem_rdata[26]} {iomem_rdata[27]} {iomem_rdata[28]} {iomem_rdata[29]} {iomem_rdata[30]} {iomem_rdata[31]} iomem_ready irq_5 irq_6 irq_7 resetn ser_rx}
+setPinAssignMode -pinEditInBatch false
+zoomBox 807.91000 1665.24100 1021.29000 1583.95300
+zoomBox 873.33200 1612.45100 896.79500 1586.77900
+zoomBox 887.64200 1600.50500 893.16900 1596.27600
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -pinWidth 0.14 -pinDepth 0.485 -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 888.26 1598.04 -end 1020.0 1598.04 -pin {clk flash_io0_di flash_io1_di flash_io2_di flash_io3_di {iomem_rdata[0]} {iomem_rdata[1]} {iomem_rdata[2]} {iomem_rdata[3]} {iomem_rdata[4]} {iomem_rdata[5]} {iomem_rdata[6]} {iomem_rdata[7]} {iomem_rdata[8]} {iomem_rdata[9]} {iomem_rdata[10]} {iomem_rdata[11]} {iomem_rdata[12]} {iomem_rdata[13]} {iomem_rdata[14]} {iomem_rdata[15]} {iomem_rdata[16]} {iomem_rdata[17]} {iomem_rdata[18]} {iomem_rdata[19]} {iomem_rdata[20]} {iomem_rdata[21]} {iomem_rdata[22]} {iomem_rdata[23]} {iomem_rdata[24]} {iomem_rdata[25]} {iomem_rdata[26]} {iomem_rdata[27]} {iomem_rdata[28]} {iomem_rdata[29]} {iomem_rdata[30]} {iomem_rdata[31]} iomem_ready irq_5 irq_6 irq_7 resetn ser_rx}
+setPinAssignMode -pinEditInBatch false
+fit
+::uiSetTool getLocation Rda_PE::Attr:getStartCoord
+zoomBox 1267.69300 1599.19500 1455.67100 1528.06800
+uiSetTool ruler
+::uiSetTool getLocation Rda_PE::Attr:getEndCoord
+zoomBox 1201.19100 1438.76700 1461.36900 1671.68200
+zoomBox 1158.90000 1412.87000 1464.99200 1686.88800
+zoomBox 1108.79600 1381.77400 1468.90500 1704.14800
+uiSetTool ruler
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 1304.17 1597.676 -end 1450.736 1597.0 -pin {flash_clk flash_csb flash_io0_do flash_io0_oe flash_io1_do flash_io1_oe flash_io2_do flash_io2_oe flash_io3_do flash_io3_oe {iomem_addr[0]} {iomem_addr[1]} {iomem_addr[2]} {iomem_addr[3]} {iomem_addr[4]} {iomem_addr[5]} {iomem_addr[6]} {iomem_addr[7]} {iomem_addr[8]} {iomem_addr[9]} {iomem_addr[10]} {iomem_addr[11]} {iomem_addr[12]} {iomem_addr[13]} {iomem_addr[14]} {iomem_addr[15]} {iomem_addr[16]} {iomem_addr[17]} {iomem_addr[18]} {iomem_addr[19]} {iomem_addr[20]} {iomem_addr[21]} {iomem_addr[22]} {iomem_addr[23]} {iomem_addr[24]} {iomem_addr[25]} {iomem_addr[26]} {iomem_addr[27]} {iomem_addr[28]} {iomem_addr[29]} {iomem_addr[30]} {iomem_addr[31]} iomem_valid {iomem_wdata[0]} {iomem_wdata[1]} {iomem_wdata[2]} {iomem_wdata[3]} {iomem_wdata[4]} {iomem_wdata[5]} {iomem_wdata[6]} {iomem_wdata[7]} {iomem_wdata[8]} {iomem_wdata[9]} {iomem_wdata[10]} {iomem_wdata[11]} {iomem_wdata[12]} {iomem_wdata[13]} {iomem_wdata[14]} {iomem_wdata[15]} {iomem_wdata[16]} {iomem_wdata[17]} {iomem_wdata[18]} {iomem_wdata[19]} {iomem_wdata[20]} {iomem_wdata[21]} {iomem_wdata[22]} {iomem_wdata[23]} {iomem_wdata[24]} {iomem_wdata[25]} {iomem_wdata[26]} {iomem_wdata[27]} {iomem_wdata[28]} {iomem_wdata[29]} {iomem_wdata[30]} {iomem_wdata[31]} {iomem_wstrb[0]} {iomem_wstrb[1]} {iomem_wstrb[2]} {iomem_wstrb[3]} ser_tx}
+setPinAssignMode -pinEditInBatch false
+zoomBox 1287.22000 1624.95200 1376.66500 1563.92400
+zoomBox 1302.03100 1602.19000 1307.47000 1594.90100
+uiSetTool ruler
+fit
+uiSetTool select
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -pinWidth 0.14 -pinDepth 0.485 -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 1250.0 1598.04 -end 1449.92 1598.04 -pin {flash_clk flash_csb flash_io0_do flash_io0_oe flash_io1_do flash_io1_oe flash_io2_do flash_io2_oe flash_io3_do flash_io3_oe {iomem_addr[0]} {iomem_addr[1]} {iomem_addr[2]} {iomem_addr[3]} {iomem_addr[4]} {iomem_addr[5]} {iomem_addr[6]} {iomem_addr[7]} {iomem_addr[8]} {iomem_addr[9]} {iomem_addr[10]} {iomem_addr[11]} {iomem_addr[12]} {iomem_addr[13]} {iomem_addr[14]} {iomem_addr[15]} {iomem_addr[16]} {iomem_addr[17]} {iomem_addr[18]} {iomem_addr[19]} {iomem_addr[20]} {iomem_addr[21]} {iomem_addr[22]} {iomem_addr[23]} {iomem_addr[24]} {iomem_addr[25]} {iomem_addr[26]} {iomem_addr[27]} {iomem_addr[28]} {iomem_addr[29]} {iomem_addr[30]} {iomem_addr[31]} iomem_valid {iomem_wdata[0]} {iomem_wdata[1]} {iomem_wdata[2]} {iomem_wdata[3]} {iomem_wdata[4]} {iomem_wdata[5]} {iomem_wdata[6]} {iomem_wdata[7]} {iomem_wdata[8]} {iomem_wdata[9]} {iomem_wdata[10]} {iomem_wdata[11]} {iomem_wdata[12]} {iomem_wdata[13]} {iomem_wdata[14]} {iomem_wdata[15]} {iomem_wdata[16]} {iomem_wdata[17]} {iomem_wdata[18]} {iomem_wdata[19]} {iomem_wdata[20]} {iomem_wdata[21]} {iomem_wdata[22]} {iomem_wdata[23]} {iomem_wdata[24]} {iomem_wdata[25]} {iomem_wdata[26]} {iomem_wdata[27]} {iomem_wdata[28]} {iomem_wdata[29]} {iomem_wdata[30]} {iomem_wdata[31]} {iomem_wstrb[0]} {iomem_wstrb[1]} {iomem_wstrb[2]} {iomem_wstrb[3]} ser_tx}
+setPinAssignMode -pinEditInBatch false
+zoomBox 1204.18700 1652.54000 1260.07300 1535.68900
+zoomBox 1244.70900 1607.11700 1258.21800 1575.54000
+zoomBox 1249.66100 1599.81600 1253.54000 1596.98700
+uiSetTool ruler
+getPinAssignMode -pinEditInBatch -quiet
+setPinAssignMode -pinEditInBatch true
+editPin -pinWidth 0.14 -pinDepth 0.485 -fixOverlap 1 -spreadDirection clockwise -side Top -layer 2 -spreadType range -start 1220.0 1598.04 -end 1449.0 1598.04 -pin {flash_clk flash_csb flash_io0_do flash_io0_oe flash_io1_do flash_io1_oe flash_io2_do flash_io2_oe flash_io3_do flash_io3_oe {iomem_addr[0]} {iomem_addr[1]} {iomem_addr[2]} {iomem_addr[3]} {iomem_addr[4]} {iomem_addr[5]} {iomem_addr[6]} {iomem_addr[7]} {iomem_addr[8]} {iomem_addr[9]} {iomem_addr[10]} {iomem_addr[11]} {iomem_addr[12]} {iomem_addr[13]} {iomem_addr[14]} {iomem_addr[15]} {iomem_addr[16]} {iomem_addr[17]} {iomem_addr[18]} {iomem_addr[19]} {iomem_addr[20]} {iomem_addr[21]} {iomem_addr[22]} {iomem_addr[23]} {iomem_addr[24]} {iomem_addr[25]} {iomem_addr[26]} {iomem_addr[27]} {iomem_addr[28]} {iomem_addr[29]} {iomem_addr[30]} {iomem_addr[31]} iomem_valid {iomem_wdata[0]} {iomem_wdata[1]} {iomem_wdata[2]} {iomem_wdata[3]} {iomem_wdata[4]} {iomem_wdata[5]} {iomem_wdata[6]} {iomem_wdata[7]} {iomem_wdata[8]} {iomem_wdata[9]} {iomem_wdata[10]} {iomem_wdata[11]} {iomem_wdata[12]} {iomem_wdata[13]} {iomem_wdata[14]} {iomem_wdata[15]} {iomem_wdata[16]} {iomem_wdata[17]} {iomem_wdata[18]} {iomem_wdata[19]} {iomem_wdata[20]} {iomem_wdata[21]} {iomem_wdata[22]} {iomem_wdata[23]} {iomem_wdata[24]} {iomem_wdata[25]} {iomem_wdata[26]} {iomem_wdata[27]} {iomem_wdata[28]} {iomem_wdata[29]} {iomem_wdata[30]} {iomem_wdata[31]} {iomem_wstrb[0]} {iomem_wstrb[1]} {iomem_wstrb[2]} {iomem_wstrb[3]} ser_tx}
+setPinAssignMode -pinEditInBatch false
+zoomBox 1247.27100 1594.75300 1254.70200 1601.40500
+fit
+uiSetTool select
+zoomBox 691.06000 1223.24000 736.78400 1070.82500
+fit
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference pinObj -isVisible 1
+setLayerPreference blockHalo -isVisible 1
+setLayerPreference node_net -isVisible 0
+setLayerPreference node_net -isVisible 1
+zoomBox 1394.70500 1657.62000 1478.53300 1561.09100
+zoomBox 1443.10500 1607.54200 1472.39900 1574.06400
+fit
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_2k_0
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_2k_1
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_4k_0
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_4k_1
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_2k_0
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_2k_1
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_4k_0
+createRouteBlk -cover -exceptpgnet -layer 4 -cutLayer 4 5 -inst memory/u_sram_4k_1
+fit
+fit
+fit
+fit
+zoomBox 762.18600 1225.78000 848.55400 1141.95200
+fit
+zoomBox 736.78400 710.11200 853.63500 649.14600
+zoomBox 790.90100 711.52500 805.41300 692.78000
+fit
+zoomBox 28.05800 1223.24000 111.88500 1086.06700
+zoomBox 33.59700 1181.41400 89.49700 1107.47600
+fit
+setSrouteMode -viaConnectToShape { noshape }
+sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { met1(1) met4(4) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { met1(1) met5(5) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { met1(1) met5(5) }
+setSrouteMode -viaConnectToShape { noshape }
+sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { met1(1) met4(4) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { met1(1) met5(5) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { met1(1) met5(5) }
+zoomBox -814.84500 -846.03700 2382.55600 2016.31900
+zoomBox -182.78300 -79.90300 1780.82100 1677.94200
+zoomBox -49.03900 108.32900 1620.02400 1602.49700
+editPowerVia -skip_via_on_pin Standardcell -bottom_layer met1 -nets {VDD VSS} -add_vias 1 -top_layer met5
+set sprEpvLayers {}
+editPowerVia -skip_via_on_pin Standardcell -bottom_layer met1 -nets {VDD VSS} -add_vias 1 -top_layer met5
+set sprEpvLayers {}
+zoomBox 624.63200 1136.10900 896.69200 995.76100
+zoomBox 703.11800 1129.63900 721.41900 1104.29800
+zoomBox 707.52600 1123.04700 710.12600 1118.39700
+fit
+zoomBox 716.46200 1177.51500 863.79600 1103.84800
+zoomBox 788.50900 1169.46200 806.04400 1147.54300
+fit
+ecoRoute
+clearDrc
+verify_drc
+zoomBox 30.59800 1619.51700 68.70100 1535.68900
+zoomBox 46.68100 1600.61900 91.62400 1573.84800
+fit
+zoomBox 637.71500 1393.43500 741.86400 1230.86000
+zoomBox 694.84000 1352.08600 731.72500 1309.79800
+zoomBox 704.39000 1337.05300 713.98500 1331.85900
+fit
+zoomBox 762.18600 1210.53800 825.69200 1126.71100
+zoomBox 793.51500 1185.82600 808.65700 1163.77900
+fit
+zoomBox 5.19600 1606.81500 71.24200 1548.39000
+zoomBox 9.72400 1589.99100 23.56600 1578.54200
+zoomBox 9.92100 1588.02700 12.37400 1585.68100
+fit
+zoomBox 1425.18800 57.27100 1486.15400 -8.77500
+zoomBox 1458.10400 17.28100 1475.57000 -8.58400
+fit
+zoomBox 858.71500 1647.45900 1046.69300 1530.60800
+fit
+checkPinAssignment
+legalizePin
+addWellTap -cell FILL2 -cellInterval 20 -checkerBoard
+saveDesign DESIGN/fpf.inn
+setDesignMode -topRoutingLayer 4
+place_design
+checkDesign -all > report/place/checkdesign.rpt
+checkPlace
+checkDesign -all > report/place/checkdesign.rpt
+checkPlace
+report_timing -from [all_inputs ] -to [all_registers ] -max_slack 0 -max_paths 9999 > report/place/setup_in2reg.rpt
+report_timing -from [all_registers ] -to [all_registers ] -max_slack 0 -max_paths 9999 > report/place/setup_reg2reg.rpt
+report_timing -from [all_registers ] -to [all_outputs ] -max_slack 0 -max_paths 9999 > report/place/setup_reg2out.rpt
+optDesign -preCTS
+checkDesign -all > report/prects/checkdesignopt.rpt
+report_timing -from [all_registers ] -to [all_outputs ] -max_slack 0 -max_paths 9999 > report/prects/setup_reg2outopt.rpt
+report_timing -from [all_registers ] -to [all_registers ] -max_slack 0 -max_paths 9999 > report/prects/setup_reg2regopt.rpt
+report_timing -from [all_inputs ] -to [all_registers ] -max_slack 0 -max_paths 9999 > report/prects/setup_in2regopt.rpt 
+add_ndr -name 2W2S_shield -width {met1 0.28 met2 0.28 met3 0.6 met4 0.6} -spacing {met1 0.28 met2 0.28 met3 0.6 met4 0.6}
+create_route_type -name CLK_shield -non_default_rule 2W2S_shield -shield_net VSS
+set_ccopt_property route_type CLK_shield -net_type trunk
+set_ccopt_property route_type CLK_shield -net_type leaf
+create_ccopt_clock_tree_spec
+ccopt_design -cts
+all_constraint_modes 
+set_interactive_constraint_modes [all_constraint_modes ]
+set_propagated_clock [all_clocks ]
+set_global report_timing_format {instance arc cell net load delay arrival required }
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+checkDesign -all > report/postCTS/checkDesign.rp
+report_timing -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_in2reg.rpt
+report_timing -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_reg2reg.rpt
+report_timing -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/setup_reg2out.rpt
+report_timing -check_type hold -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_in2reg.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_reg2reg.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/hold_reg2out.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+setOptMode -opt_setup_target_slack 0.1
+setOptMode -opt_hold_target_slack 0.05
+optDesign -postCTS -prefix postCTS
+checkDesign -all > report/postCTS/optcheckDesign.rpt
+report_timing -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_in2regopt.rpt
+report_timing -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_reg2regopt.rpt
+report_timing -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/setup_reg2outopt.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+report_timing -check_type hold -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_in2regopt.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_reg2regopt.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/hold_reg2outopt.rpt
+saveDesign
+saveDesign DESIGN/placef.inn
+zoomBox 701.22000 1230.86000 873.95700 1050.50300
+fit
+zoomBox 764.72600 1426.45900 955.24400 1258.80300
+zoomBox 795.04100 1367.27700 835.46200 1320.44900
+zoomBox 814.60900 1338.85500 836.73700 1326.06600
+fit
+setDrawView place
+setDrawView ameba
+setDrawView fplan
+zoomBox 1163.54400 1309.60800 1483.61300 1088.60700
+zoomBox 1340.34800 1241.34100 1430.61300 1168.05200
+zoomBox 1370.00800 1235.64000 1397.56600 1191.73400
+fit
+zoomBox -25.28700 778.69800 193.17300 608.50200
+zoomBox 47.62700 721.01300 98.49800 678.62100
+fit
+zoomBox 800.29000 755.83600 1008.58900 628.82400
+zoomBox 862.80700 731.67200 911.85000 691.52200
+fit
+zoomBox 1211.80800 1662.70100 1415.02700 1497.58500
+fit
+zoomBox 856.17500 1652.54000 1166.08400 1489.96400
+zoomBox 943.17400 1618.56000 1008.92400 1547.99800
+zoomBox 915.34900 1518.40000 1066.34700 1653.57500
+zoomBox 907.48900 1507.47200 1085.13400 1666.50200
+panPage -1 0
+panPage -1 0
+zoomBox 875.59000 1609.27900 893.74500 1583.99900
+fit
+setDrawView place
+setLayerPreference node_layer -isVisible 0
+zoomBox 1265.15300 1258.80300 1376.92400 1144.49200
+fit
+zoomBox 1534.41800 1563.63100 1600.46400 1553.47000
+fit
+zoomBox 668.19700 735.51400 744.40500 672.00800
+fit
+zoomBox 668.19700 1218.15900 741.86400 1098.76800
+zoomBox 700.28500 1173.47400 717.36600 1137.24200
+fit
+setDrawView fplan
+setDrawView place
+setLayerPreference node_layer -isVisible 1
+create_ccopt_clock_tree_spec
+ccopt_design -cts
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+ccopt_design -cts
+all_constraint_modes 
+set_interactive_constraint_modes [all_constraint_modes ]
+set_propagated_clock [all_clocks ]
+set_global report_timing_format {instance arc cell net load delay arrival required }
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+checkDesign -all > report/postCTS/checkDesign.rpt
+report_timing -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_in2reg.rpt
+report_timing -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_reg2reg.rpt
+report_timing -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/setup_reg2out.rpt
+report_timing -check_type hold -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_in2reg.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_reg2reg.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/hold_reg2out.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+setOptMode -opt_setup_target_slack 0.1
+setOptMode -opt_hold_target_slack 0.05
+optDesign -postCTS -prefix postCTS
+checkDesign -all > report/postCTS/optcheckDesign.rpt
+report_timing -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_in2regopt.rpt
+report_timing -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/setup_reg2regopt.rpt
+report_timing -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/setup_reg2outopt.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+report_timing -check_type hold -from [all_inputs ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_in2regopt.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_registers ] -max_paths 999999 > report/postCTS/hold_reg2regopt.rpt
+report_timing -check_type hold -from [all_registers ] -to [all_outputs ] -max_paths 999999 > report/postCTS/hold_reg2outopt.rpt
+saveDesign
+saveDesign DESIGN/ctsf.inn
+setDesignMode -topRoutingLayer 4
+all_constraint_modes 
+set_interactive_constraint_modes [all_constraint_modes ]
+set_propagated_clock [all_clocks ]
+set_global report_timing_format {instance arc cell net load delay arrival required }
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+setNanoRouteMode -route_antenna_cell_name ANTENNA
+setNanoRouteMode -route_antenna_diode_insertion true
+setNanoRouteMode -route_diode_insertion_for_clock_nets true
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+setAnalysisMode -analysisType onChipVariation
+routeDesign
+checkDesign -all > report/route/checkdesign.rpt
+report_timing  -from [all_inputs ] -to [all_registers ] -max_slack 9999 -max_paths 9999 > report/route/setup_in2reg.rpt
+report_timing  -from [all_registers ] -to [all_registers ] -max_slack 9999 -max_paths 9999 > report/route/setup_reg2reg.rpt
+report_timing  -from [all_registers ] -to [all_outputs ] -max_slack 9999 -max_paths 9999 > report/route/setup_reg2out.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+report_timing  -check_type hold -from [all_inputs ] -to [all_registers ] -max_slack 9999 -max_paths 99999 > report/route/hold_in2reg.rpt
+report_timing  -check_type hold -from [all_registers ] -to [all_registers ] -max_slack 9999 -max_paths 99999 > report/route/hold_reg2reg.rpt
+report_timing  -check_type hold -from [all_registers ] -to [all_outputs ] -max_slack 9999 -max_paths 99999 > report/route/hold_reg2out.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+zoomBox 33.13800 763.45700 50.92000 666.92800
+zoomBox 31.35800 723.56200 57.86100 701.10400
+zoomBox 38.55800 718.26500 45.55200 710.27600
+zoomBox 40.98700 717.24900 42.96100 714.66300
+fit
+ctd_win -side none -id ctd_window
+ctd_win -side none -id ctd_window -unit_delay -include_reporting_only_skew_groups
+zoomBox 642.79500 1368.03300 764.72600 1225.78000
+zoomBox 704.68500 1320.54700 728.12000 1270.79900
+zoomBox 715.79100 1311.34500 719.38600 1305.52200
+zoomBox 716.68400 1309.83000 719.04800 1307.65900
+fit
+setOptMode -opt_setup_target_slack 0.1
+setOptMode -opt_hold_target_slack 0.05
+optDesign -postroute
+checkDesign -all > report/route/optholdcheckdesign.rpt
+report_timing  -from [all_inputs ] -to [all_registers ] -max_slack 9999 -max_paths 9999 > report/route/setup_in2regopt2.rpt
+report_timing  -from [all_registers ] -to [all_registers ] -max_slack 9999 -max_paths 9999 > report/route/setup_reg2regopt2.rpt
+report_timing  -from [all_registers ] -to [all_outputs ] -max_slack 9999 -max_paths 9999 > report/route/setup_reg2outopt2.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+report_timing  -check_type hold -from [all_inputs ] -to [all_registers ] -max_slack 9999 -max_paths 99999 > report/route/hold_in2regopt2.rpt
+report_timing  -check_type hold -from [all_registers ] -to [all_registers ] -max_slack 9999 -max_paths 99999 > report/route/hold_reg2regopt2.rpt
+report_timing  -check_type hold -from [all_registers ] -to [all_outputs ] -max_slack 9999 -max_paths 99999 > report/route/hold_reg2outopt2.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+optDesign -hold -postRoute
+getAnalysisMode -checkType -quiet
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -late > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt -max_path_num 10000 -updateCategory 0 -isDrv 0
+editSelect -net {memory/dout_2k_0[7]}
+zoomSelected
+selectInst memory/u_sram_2k_0
+zoomSelected
+editSelect -net {memory/dout_2k_0[7]}
+zoomSelected
+selectInst memory/u_sram_2k_0
+zoomSelected
+editSelect -net {memory/dout_2k_0[7]}
+zoomSelected
+selectInst memory/u_sram_2k_0
+zoomSelected
+editSelect -net {memory/dout_2k_0[7]}
+zoomSelected
+selectInst memory/u_sram_2k_0
+zoomSelected
+all_analysis_views
+all_setup_analysis_views
+all_hold_analysis_views
+get_analysis_view $view -delay_corner
+get_delay_corner $dc -rc_corner
+ecoChangeCell -inst memory/u_sram_2k_0 -cell sky130_sram_2kbyte_1rw1r_32x512_8 -evaluateOnly
+editSelect -net {memory/dout_2k_0[7]}
+zoomSelected
+selectInst memory/u_sram_2k_0
+zoomSelected
+editSelect -net {memory/dout_2k_0[7]}
+zoomSelected
+selectInst memory/u_sram_2k_0
+zoomSelected
+all_analysis_views
+all_setup_analysis_views
+all_hold_analysis_views
+get_analysis_view $view -delay_corner
+get_delay_corner $dc -rc_corner
+getAnalysisMode -checkType -quiet
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt -max_path_num 10000 -updateCategory 0 -isDrv 0
+fit
+zoomBox 442.11600 1416.29800 934.92200 923.49200
+zoomBox 624.07000 1278.14100 777.89300 1091.55900
+fit
+deselectAll
+zoomBox 642.79500 1291.82600 825.69200 1136.87200
+fit
+zoomBox 863.79600 1205.45800 1011.12900 1055.58400
+zoomBox 949.26600 1150.66300 983.26900 1113.84400
+fit
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+setLayerPreference node_route -isVisible 0
+zoomBox 10.27600 69.97200 86.48300 -57.04000
+zoomBox 0.01600 15.09300 8.64200 7.20000
+setLayerPreference node_route -isVisible 1
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+setLayerPreference node_net -isVisible 0
+zoomBox -11.47900 2.79000 11.90200 23.72100
+zoomBox -41.70100 -8.90000 20.29500 46.60000
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox -101.93400 16.51400 37.79200 141.59900
+panPage 0 1
+panPage 0 1
+zoomBox -283.43400 13.65200 87.04700 345.31200
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage -1 0
+zoomBox 456.80800 1143.78800 490.83700 1117.90700
+zoomBox 454.38400 1112.67200 494.41800 1148.51100
+zoomBox 451.53200 1109.20800 498.63100 1151.37200
+zoomBox 448.17700 1105.13200 503.58800 1154.73700
+zoomBox 444.23000 1100.33700 509.42000 1158.69600
+panPage 0 1
+zoomBox 448.10100 1122.53800 503.51200 1172.14300
+zoomBox 451.39100 1126.52700 498.49100 1168.69200
+zoomBox 434.37300 1105.82800 524.60200 1186.60200
+zoomBox 389.73600 1051.53200 593.09200 1233.57900
+zoomBox 339.81600 990.53600 670.94800 1286.97000
+zoomBox 177.62000 794.44200 923.90900 1462.53000
+zoomBox -76.98500 477.95400 1352.67100 1757.80100
+panPage -1 0
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 1 0
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 731.24200 1202.95400 820.01800 1095.68300
+zoomBox 778.03200 1154.89900 803.76500 1135.05700
+fit
+zoomBox 1087.33600 1164.81400 1173.70500 1037.80200
+zoomBox 1137.22000 1097.82100 1167.50400 1077.26400
+zoomBox 1149.99200 1092.28300 1162.01900 1083.07600
+fit
+getAnalysisMode -checkType -quiet
+get_time_unit
+report_constraint -drv_violation_type max_transition -all_violators > top.mtarpt
+report_constraint -drv_violation_type max_capacitance -all_violators >> top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt -max_path_num 10000 -updateCategory 0 -isDrv 1
+deselectAll
+selectNet 0
+deselectAll
+selectNet 0
+setLayerPreference node_net -isVisible 1
+zoomBox 698.68000 1398.51600 1013.67000 1205.45800
+zoomBox 814.00000 1385.52200 937.06200 1306.87600
+fit
+zoomBox 1061.93400 1421.37800 1445.51000 1091.14700
+zoomBox 1290.69000 1357.49000 1375.54300 1260.23200
+fit
+zoomBox 823.15200 1632.21800 1072.09500 1484.88400
+zoomBox 876.29000 1608.46800 1027.65200 1503.15800
+fit
+report_timing  -from [all_inputs ] -to [all_registers ] -max_slack 9999 -max_paths 9999 > report/route/setup_in2regopt.rpt
+report_timing  -from [all_registers ] -to [all_registers ] -max_slack 9999 -max_paths 9999 > report/route/setup_reg2regopt.rpt
+report_timing  -from [all_registers ] -to [all_outputs ] -max_slack 9999 -max_paths 9999 > report/route/setup_reg2outopt.rpt
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode true
+report_timing  -check_type hold -from [all_inputs ] -to [all_registers ] -max_slack 9999 -max_paths 99999 > report/route/hold_in2regopt.rpt
+report_timing  -check_type hold -from [all_registers ] -to [all_registers ] -max_slack 9999 -max_paths 99999 > report/route/hold_reg2regopt.rpt
+report_timing  -check_type hold -from [all_registers ] -to [all_outputs ] -max_slack 9999 -max_paths 99999 > report/route/hold_reg2outopt.rpt
+ecoRoute -fix_drc
+saveNetlist test.v -includePhysicalInst -includePowerGround
+verify_drc -limit 999999 > output/drc.rpt
+verifyConnectivity > output/connect.rpt
+addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 FILL_DECAP16 FILL_DECAP8 -prefix FILLER
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+set timing_enable_simultaneous_setup_hold_mode false
+addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8 FILL_DECAP16 FILL_DECAP8 -prefix FILLER
+saveNetlist output/picosoc_pnr.v -includePhysicalinst -includePOwerGround -excludeCellInst {FILL1 FILL16 FILL2 FILL32 FILL4 FILL64 FILL8}
+streamOut -merge {/pdk/sky130_scl_9T_0.1.2/sky130_scl_9T/gds/sky130_scl_9T.gds /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_HS/gds/sky130_scl_9T_HS.gds /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_LP/gds/sky130_scl_9T_LP.gds /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T_tech/gds/sky130_scl_9T_phyCells.gds  /pnr_training/WORK_BATCH1/REFERENCE/FINAL_PROJECT/ram/sky130_sram_2kbyte/gds/sky130_sram_2kbyte_1rw1r_32x512_8.gds.gz /pnr_training/WORK_BATCH1/REFERENCE/FINAL_PROJECT/ram/sky130_sram_4kbyte/gds/sky130_sram_4kbyte_1rw1r_32x1024_8.gds.gz   } -mapFile /pdk/sky130_scl_9T_0.1.2/sky130_scl_9T/gds/sky130_stream.mapFile output/picosoc.gds
+defOut -netlist -floorplan output/picosoc.def
+write_lef_abstract -stripePin -PGPinLayers { 3 4 } output/picosoc.lef
+set_analysis_view -setup {func_typical_25_1v8 } -hold {func_typical_25_1v8 }
+do_extract_model -view func_slow_125_1v62 output/picosoc_slow.lib
+do_extract_model -view func_fast_0_1v98 output/picosoc_fast.lib
+do_extract_model -view func_typical_25_1v8 output/picosoc_typical.lib
+saveDesign DESIGN/route_finalf.inn
